@@ -1,0 +1,606 @@
+{
+  "generated_at": "2026-10-28T18:43:56.553Z",
+  "widths": [
+    320,
+    375,
+    390,
+    430,
+    650,
+    768,
+    1024,
+    1122,
+    1280,
+    1440
+  ],
+  "routes": [
+    "/",
+    "/topics/boots",
+    "/topics/rucking",
+    "/topics/packs",
+    "/topics/clothing",
+    "/topics/field-sleep",
+    "/topics/surplus",
+    "/preview/guides/FGA-001?preview=1&key=local-v2"
+  ],
+  "total": 80,
+  "overflow": 0,
+  "broken": 0,
+  "keyboardEscape": true,
+  "results": [
+    {
+      "width": 320,
+      "route": "/",
+      "overflow": false,
+      "broken": [],
+      "menu": {
+        "opened": "true",
+        "closed": "false"
+      }
+    },
+    {
+      "width": 320,
+      "route": "/topics/boots",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 320,
+      "route": "/topics/rucking",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 320,
+      "route": "/topics/packs",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 320,
+      "route": "/topics/clothing",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 320,
+      "route": "/topics/field-sleep",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 320,
+      "route": "/topics/surplus",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 320,
+      "route": "/preview/guides/FGA-001?preview=1&key=local-v2",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "overflow": false,
+      "broken": [],
+      "menu": {
+        "opened": "true",
+        "closed": "false"
+      }
+    },
+    {
+      "width": 375,
+      "route": "/topics/boots",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 375,
+      "route": "/topics/rucking",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 375,
+      "route": "/topics/packs",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 375,
+      "route": "/topics/clothing",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 375,
+      "route": "/topics/field-sleep",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 375,
+      "route": "/topics/surplus",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 375,
+      "route": "/preview/guides/FGA-001?preview=1&key=local-v2",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "overflow": false,
+      "broken": [],
+      "menu": {
+        "opened": "true",
+        "closed": "false"
+      }
+    },
+    {
+      "width": 390,
+      "route": "/topics/boots",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 390,
+      "route": "/topics/rucking",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 390,
+      "route": "/topics/packs",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 390,
+      "route": "/topics/clothing",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 390,
+      "route": "/topics/field-sleep",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 390,
+      "route": "/topics/surplus",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 390,
+      "route": "/preview/guides/FGA-001?preview=1&key=local-v2",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 430,
+      "route": "/",
+      "overflow": false,
+      "broken": [],
+      "menu": {
+        "opened": "true",
+        "closed": "false"
+      }
+    },
+    {
+      "width": 430,
+      "route": "/topics/boots",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 430,
+      "route": "/topics/rucking",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 430,
+      "route": "/topics/packs",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 430,
+      "route": "/topics/clothing",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 430,
+      "route": "/topics/field-sleep",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 430,
+      "route": "/topics/surplus",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 430,
+      "route": "/preview/guides/FGA-001?preview=1&key=local-v2",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 650,
+      "route": "/",
+      "overflow": false,
+      "broken": [],
+      "menu": {
+        "opened": "true",
+        "closed": "false"
+      }
+    },
+    {
+      "width": 650,
+      "route": "/topics/boots",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 650,
+      "route": "/topics/rucking",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 650,
+      "route": "/topics/packs",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 650,
+      "route": "/topics/clothing",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 650,
+      "route": "/topics/field-sleep",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 650,
+      "route": "/topics/surplus",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 650,
+      "route": "/preview/guides/FGA-001?preview=1&key=local-v2",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 768,
+      "route": "/topics/boots",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 768,
+      "route": "/topics/rucking",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 768,
+      "route": "/topics/packs",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 768,
+      "route": "/topics/clothing",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 768,
+      "route": "/topics/field-sleep",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 768,
+      "route": "/topics/surplus",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 768,
+      "route": "/preview/guides/FGA-001?preview=1&key=local-v2",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1024,
+      "route": "/",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1024,
+      "route": "/topics/boots",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1024,
+      "route": "/topics/rucking",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1024,
+      "route": "/topics/packs",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1024,
+      "route": "/topics/clothing",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1024,
+      "route": "/topics/field-sleep",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1024,
+      "route": "/topics/surplus",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1024,
+      "route": "/preview/guides/FGA-001?preview=1&key=local-v2",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1122,
+      "route": "/",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1122,
+      "route": "/topics/boots",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1122,
+      "route": "/topics/rucking",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1122,
+      "route": "/topics/packs",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1122,
+      "route": "/topics/clothing",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1122,
+      "route": "/topics/field-sleep",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1122,
+      "route": "/topics/surplus",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1122,
+      "route": "/preview/guides/FGA-001?preview=1&key=local-v2",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1280,
+      "route": "/",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1280,
+      "route": "/topics/boots",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1280,
+      "route": "/topics/rucking",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1280,
+      "route": "/topics/packs",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1280,
+      "route": "/topics/clothing",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1280,
+      "route": "/topics/field-sleep",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1280,
+      "route": "/topics/surplus",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1280,
+      "route": "/preview/guides/FGA-001?preview=1&key=local-v2",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1440,
+      "route": "/topics/boots",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1440,
+      "route": "/topics/rucking",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1440,
+      "route": "/topics/packs",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1440,
+      "route": "/topics/clothing",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1440,
+      "route": "/topics/field-sleep",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1440,
+      "route": "/topics/surplus",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    },
+    {
+      "width": 1440,
+      "route": "/preview/guides/FGA-001?preview=1&key=local-v2",
+      "overflow": false,
+      "broken": [],
+      "menu": null
+    }
+  ]
+}

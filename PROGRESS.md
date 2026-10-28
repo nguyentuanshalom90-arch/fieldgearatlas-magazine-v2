@@ -23,9 +23,10 @@
 
 ## Session checkpoint — 2026-10-29
 
-- `npm run typecheck` PASS; `npm test` PASS (3/3); staging audit PASS (50/50); media report now records 106 manifest / 41 local slots; public leakage guard PASS; `npm run build` PASS on Next.js 16.4.3. Figma import workflow completed 29/29 technical imports with SHA-256 report; editorial/rights approval remains pending.
+- `npm run typecheck` PASS; `npm test` PASS (3/3); staging audit PASS (50/50); media report records 106 manifest / 106 local slots; public leakage guard PASS; `npm run build` PASS on Next.js 16.4.3. Figma import workflow completed 29/29 technical imports and Adobe export completed 65/65 with SHA-256 reports; editorial/rights approval remains pending.
 - Browser audit ran on real V2 at `http://localhost:3004`: 8 routes × desktop/tablet/mobile/reference = 32 screenshots; after layout corrections, final result 0 overflow and 0 broken images.
 - After authenticated Adobe export, category/home layout correction, and article-template correction, the browser audit was repeated: 32 screenshots, 0 overflow and 0 broken images; the only prior Next image aspect warning was cleared with explicit image sizing CSS.
+- Responsive width audit completed 80 route/width runs across all 10 required widths: 0 overflow, 0 broken images, and mobile Escape behavior PASS.
 - Fixed a sticky-header full-page capture artifact and long-form article tablet overflow; recaptured after fixes.
 - Required reports created: implementation, design parity, media rights, responsive/a11y, test log, independence/rollback, blockers.
 - Final gates: repository/pages/content/responsive/build PASS; local media coverage 106/106 PASS technically; visual parity/media rights/article approval remain HOLD as documented. No deploy, no publication, no V1 edits.
