@@ -10,10 +10,10 @@
 
 ## Next steps
 
-1. Install dependencies, run typecheck/build/tests and media/staging audits.
-2. Start local port 3004 and run browser audit/screenshots at desktop, tablet, mobile and reference layout.
-3. Fix P0/P1 layout/accessibility issues found by screenshots.
-4. Record truthful parity/media statuses in required reports. Do not deploy or publish.
+1. Obtain authenticated exports or separately supplied local binaries for the 94 missing manifest slots; preserve per-slot source, rights, dimensions, SHA-256 and owner authorization.
+2. Re-run the media audit and browser audit with the exact approved media, then compare each route against the seven approved mockups.
+3. Obtain owner acceptance for the seven visual comparisons and the proposed article template.
+4. Keep all 50 articles private/HOLD; do not deploy or publish.
 
 ## Holds
 
@@ -29,3 +29,4 @@
 - Required reports created: implementation, design parity, media rights, responsive/a11y, test log, independence/rollback, blockers.
 - Final gates: repository/pages/content/responsive/build PASS; visual parity/media local coverage/media rights/article approval remain HOLD as documented. No deploy, no publication, no V1 edits.
 - Recommended next work package: obtain authenticated 94-slot media exports + rights records, then owner review of screenshots and proposed article template.
+- Additional evidence: sampled direct Adobe Firefly source URLs returned HTTP 403 and sampled Figma source URLs returned HTTP 400; this confirms the missing-media gate requires authenticated export or owner-supplied files rather than URL scraping.

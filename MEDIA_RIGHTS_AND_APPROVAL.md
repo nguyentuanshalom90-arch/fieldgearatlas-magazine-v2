@@ -6,6 +6,7 @@
 - Local verified files: 28 files representing 12 slots (12 heroes + 12 thumbnails, plus FGA-001 technical/article assets).
 - Remote-only records: 94 manifest slots remain without local binary files in the handoff.
 - Sources include Adobe Firefly references and Figma-generated image references. A source URL is not a local production file.
+- Access check on 2026-10-29: sampled Adobe Firefly short URLs returned HTTP 403 and sampled Figma references returned HTTP 400 from this environment; no binary was treated as recovered from those URLs.
 - No owner public-release authorization for the 106 slots is present in the handoff.
 
 ## Rules applied
