@@ -1,0 +1,596 @@
+{
+  "generated_at": "2026-10-28T17:44:32.375Z",
+  "source_provider": "ADOBE_FIREFLY",
+  "planned": 65,
+  "imported": 65,
+  "missing": 0,
+  "rights_status": "PENDING_OWNER_APPROVAL",
+  "release_authorized": false,
+  "results": [
+    {
+      "slot_id": "CAT-01-BANNER",
+      "input_sha256": "9bcf734c3ab36533566a2e436f4bfdb4d98f60193372062ecb2273a9fbaa1c8b",
+      "output_sha256": "61d4c1bde810fab2445bea716a375fd250ea6666131012e9dc8c4ff6a8455ebd",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/categories/boots-fit/banner.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "CAT-02-BANNER",
+      "input_sha256": "013f5816071c04e56f5505ba67792a003c0c70f116a6e030ac62fb65237f38e6",
+      "output_sha256": "0b1c8efa67268e1be7349bd84b25fb2b81b058733a4c8cf47e2d868418c8f4b8",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/categories/rucking-training/banner.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "CAT-03-BANNER",
+      "input_sha256": "10fa0e1857b4dc20666bb4e7ce229752ca28233de4fd0a569f9f406875fe2623",
+      "output_sha256": "d6a15ed494c52c4b14c7686c32871afe8372447a7621d68fa0e8e7b0af23fd7a",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/categories/packs-carry/banner.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "CAT-04-BANNER",
+      "input_sha256": "9cdbcf177dddeb3571e785b8a3a1385490eebbcc8f57806c105173121f99a7a8",
+      "output_sha256": "428440ea4f99a7c788603f94ae7ac20853bcd0feb8b7bbf796758c839ac6f890",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/categories/clothing-protection/banner.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "CAT-05-BANNER",
+      "input_sha256": "2f7a90c2bcb0d1390701b20692a29a60c31b5ee8dd7ee77ba88258bcbe52d29e",
+      "output_sha256": "833bbc596076d86dd78b70cee3ee99517b0f073a849b58be737f1503c56741d3",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/categories/field-sleep/banner.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "CAT-06-BANNER",
+      "input_sha256": "a5a22a5be38ab7d1f47c1c2e4b7e4d420496365fc0f61b2542cccadbd51a4998",
+      "output_sha256": "8c244cbc10f62bafe5d247e533f321e6f3bb216bc4d43c4f700e82699fcc70a3",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/categories/surplus-heritage/banner.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-001-HERO",
+      "input_sha256": "e066fb8f4fe0e552b2c4a7e6e756c1fa24bfb6d0fa11c188ca65b6981553a084",
+      "output_sha256": "6f4e0af70327e60e62b8947a37020f19500938f1ee4fb2d3b055460553cd88be",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-001/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-001-INLINE",
+      "input_sha256": "e616b4692019f0826a2128b687d96a676c27296e6cb9df922f52f4211d9ce33f",
+      "output_sha256": "f241d6aec69efa49edecdc106ab336ae42a1315d765624663c2d27733bbe9c74",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-001/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-002-HERO",
+      "input_sha256": "8da1d47de777e712e242ea6775434e5473fbe2367c3fc8f470159dbc24101f2c",
+      "output_sha256": "12da108b6077c5ab409dd00eeb72fb1dd9a17626a24a89c9a89bccb9375dc41d",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-002/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-002-INLINE",
+      "input_sha256": "9db21ce1fdd9039dae9a5906fe4977089d57554be6d7020baf864766c86aa761",
+      "output_sha256": "b9c681661ab6b0d2913f48be2b6d2fd3876cc5050e4a0a63d65e43f633b371b2",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-002/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-003-HERO",
+      "input_sha256": "dc7af0fbb86c8ffc6479de4431ffa13da0610e61efd5fea9f13be7424e864d01",
+      "output_sha256": "adac99ea16470ac14e9abdbcfbef2a439915408a91a924c565d0611df650695f",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-003/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-003-INLINE",
+      "input_sha256": "01a26225d6f36296c967a6c5f5ce6099c1658e3825ce3b332fef9521972c526c",
+      "output_sha256": "a6ee0c5a0178badb8ad45c31bfcb244f4f4152d22302650479de51fab760d129",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-003/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-004-HERO",
+      "input_sha256": "0fec7d493735150245b8753d176c0fd03a0d5276be9886c67e73cd0ac3b534b0",
+      "output_sha256": "d7eed4385d3ad4093a49beb6229eea624a3427a3212fdfcdfb43714e922e7307",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-004/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-004-INLINE",
+      "input_sha256": "bb1bbcaf40044f9d5898a6b69ceeb4a1447853a726a0eb12a6fb71692cc84540",
+      "output_sha256": "5508ba2a31de79e571d7f27b07484fe8e9b87b153c76186b4a691d73530a132e",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-004/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-005-HERO",
+      "input_sha256": "32227660b6ec919d90d1023bc3f7ec10b04b504809131359d34066b97455d835",
+      "output_sha256": "62ba4fdbaf53b5a1bcf13c7dffbb263821a9afad73906fcd084fcff2094763b4",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-005/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-005-INLINE",
+      "input_sha256": "1e79f813c19e6e3fe2429570952261de765f3ddc7171656ef2852d2bbd55118b",
+      "output_sha256": "9f80edc9ab098546f0f2048ac7902e2869dbb7cc300df64fe563a34b651a727e",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-005/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-006-HERO",
+      "input_sha256": "e839a79785d1f572d75bf90a373a393780330dc5e0d791cc4142d0bfee18b628",
+      "output_sha256": "d5bc27afe92ff311f4c4aa1b62016cebcb0bd771444dc34dbc25bf35c827deb0",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-006/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-006-INLINE",
+      "input_sha256": "82ecaa4478ad46d123d8a41016d6baa2b1e7460253a57a4f0ba8a1cd13dbe5d0",
+      "output_sha256": "3f24907ab7ef0d6e2f721e4725ec1d3cf69e755aed12297f86c70035fbdb64cf",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-006/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-007-HERO",
+      "input_sha256": "96c0b3f825ef2fa9ea0ecc130842bb7818c465381d3741e72649a48ae334dee2",
+      "output_sha256": "5dd424e64fd2e64428bd43e6193c7920e3102da5aca308fa1e3b6e552dfcbb32",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-007/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-007-INLINE",
+      "input_sha256": "42bbfb3f77202c265e2e2868d01c4021e39d5a957eb2ebda541bb4b650942324",
+      "output_sha256": "f5d6a36b8986cfbb19af4b93fccff9d577ebf2aeb8a3bafffa8d80ba1914b150",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-007/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-008-HERO",
+      "input_sha256": "9d469b54e941625b957cc098711513baa865e5b40002b655a2b23328afcdb60e",
+      "output_sha256": "8c32897d1facebb53f2b6ffe1117df2837e6184f4b24949e8faab10600ce1514",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-008/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-008-INLINE",
+      "input_sha256": "57e0d51431e93300374330bce4175d8618c97233156f9a5100ffde69b857de32",
+      "output_sha256": "fe01b93ea8c796c9895c52f9f113b284a3d34483b11d3dc9a2b3c644db19375f",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-008/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-009-HERO",
+      "input_sha256": "0cc50e5969ed4f33fc9e796da594a533619abc8cc70a044e578a60ddb12b087b",
+      "output_sha256": "b95bf6ee7bc9fcab74aea76c0d3117cb609497fe65e96206a86238db7f42bc6f",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-009/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-009-INLINE",
+      "input_sha256": "bdc7aadde9bcd8156b172312a4a7d8ff1be9c8c0a70fd563d70e4275abc081c9",
+      "output_sha256": "eb815eb6034ec9c53120d56d769d55e9d76ad6bf79600d98f0ceb7c5c44e6e2d",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-009/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-010-HERO",
+      "input_sha256": "17b025e4355b98595107f7a0cdebf1ffd846aa034d46521e0fecb32fc95dfc7b",
+      "output_sha256": "8c2db160daa2bd5ebb8ef69e6fe3c53702826153f61a74cd6604c41dd231bf80",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-010/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-010-INLINE",
+      "input_sha256": "344cb9392340c8ffb8af755597f526190fd5bcdcceb5a89c13b938ac668838af",
+      "output_sha256": "d1dfab704759150994018f78864047cd9803f06846476cfdd8f00c6971994159",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-010/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-011-HERO",
+      "input_sha256": "f3e26592b332d40366172be194eb0aac0b728d4863f23d6edd5c02638bdecbee",
+      "output_sha256": "9596acadb6d17e448a01c880836e9e29ef2f680bc4b28fda8149e07f0d3f63f7",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-011/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-011-INLINE",
+      "input_sha256": "a186ae640ab03e9507f4d241ead8b0afb0a52d180ae8f83739c3ff788d338636",
+      "output_sha256": "7c2344c853981077d5fe77597234590c46545f2976bbe358f3c061550676b35b",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-011/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-012-HERO",
+      "input_sha256": "d44d81b0842996ef92818f39e1e9502826bdf590d9c42d91c5a791a993f7d2e8",
+      "output_sha256": "6908bd8cf7213e2bd2cd9f99aa37a2288196088dc4d805c8e85e164960a79dbc",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-012/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-012-INLINE",
+      "input_sha256": "556e93cfc8dda84a7438c1ccced67313eee7679ffacefa61808a0ce115c14351",
+      "output_sha256": "146f55fc7a78f4056f1692d5927ca393eece40ae4f1900d0b934ee97d66a8654",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-012/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-013-HERO",
+      "input_sha256": "80555795207b8d560f653433f420ee464058d4e2c6b2f265c1013c834f53e5d4",
+      "output_sha256": "eca99166e9b000d66d7caa305f7b7c4026e071839c6b09cfa56ac720825e7daa",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-013/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-013-INLINE",
+      "input_sha256": "12f71738f1643848a8007897e5b9948c626f1c01661ae2d5987bbe1503340577",
+      "output_sha256": "5abed43d0c4bb29025a8101ea430f3b085a9e5aa650449102a7cffb5068d1d38",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-013/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-014-HERO",
+      "input_sha256": "943a777a92c86ec847de58002cd5e9015d0eb3dcb89878a6d0a7cf6180a38698",
+      "output_sha256": "eea46ee6e0bf20b3956e3767e46aba5862f86d6f9c90afdaf6bd6472d4c35de2",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-014/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-014-INLINE",
+      "input_sha256": "fbd192a11576d49c4deb9852830bbcb732ff7965c7e6584da7df0287775cc2c7",
+      "output_sha256": "6c09197eac1870b16f313dc5da70ebba146a2f2b1b2bc3cf7afd414b56e49995",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-014/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-015-HERO",
+      "input_sha256": "e98e7056623f11fba553615695ed06b2d621177b20461b9f922f6b7ea9e4ce74",
+      "output_sha256": "673c1e5d6e97cf72440f17d1df281471aa939077b682f697073446fb50cea4a7",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-015/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-015-INLINE",
+      "input_sha256": "03da9ac89ff99a787f7672c7efec817de6365b8c03a50704238d8687ad65dadf",
+      "output_sha256": "41c6da9d2bdcf84239f743d1612a4099576249d07baf38348dda4dafae0fc316",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-015/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-016-HERO",
+      "input_sha256": "14c2b37e82ba9d3521461fb63602852450e09a68054724607fcd74adfd20b89b",
+      "output_sha256": "68ca8d221be508c9125d019be2c94237fb3f716f48792753a5d49742a3f8b350",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-016/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-016-INLINE",
+      "input_sha256": "f33b29941383c7372dd1d943940027d416a84588bf48c32f040917de88d99b13",
+      "output_sha256": "5918f89f5d5fcf07071bf57df51f53a0031ac45ed9a5abc6505275ac7cedd2fd",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-016/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-017-HERO",
+      "input_sha256": "3da492cd1c56eca066e6e1a43f4116baecaf15a086175ac8da36691141e5ff69",
+      "output_sha256": "d0ba81b80114d076d071c5477d45009b3225c1f514d3627a8328f53d85a715b6",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-017/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-017-INLINE",
+      "input_sha256": "ae6ebf9c34e401987e4ee6410bebc1d6fb0b6c2107e02f97d6faaa08dded1329",
+      "output_sha256": "b156e7325175cd4cb65a55244168d53bfb56dfdfef6d07d7726f37e4a9cc9adc",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-017/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-018-HERO",
+      "input_sha256": "a00bcb1792e4c0a10e16f1c57f2855a215d95df51a4dbd44e51911f8ccda42fa",
+      "output_sha256": "5819f32bf01ccb4d2e8356d0157fa4e00bc3de8bda4b5ab304cd153592de15c6",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-018/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-018-INLINE",
+      "input_sha256": "0ddea93a323bcf1c9eceae03ea21ec991ce2d97d754e12a55b09dfa509d2a489",
+      "output_sha256": "0401924007f2579c9846cb2dbc737e8025fdbaffbe4fdd67a5fbde7dae7f5ba6",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-018/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-019-HERO",
+      "input_sha256": "5bbcb418bcde6189188bdde5f119408e56884b608cefdd111b01a0f1617dc51a",
+      "output_sha256": "9269699121de01bc53f856729c5b22dffc1fa379fc0274fafeb4b7aba2303e4e",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-019/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-019-INLINE",
+      "input_sha256": "7b5e451a730d413a4b37a84e79a3bafcb0cfdf95d6c2632b7117a8589548c8e8",
+      "output_sha256": "c959a60d2495ad75ba4fd0424286c1e5a2fca3cfaff21e4a0fa7e9c9136dada1",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-019/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-020-HERO",
+      "input_sha256": "d1b6fecb38beb71d8d9c18f0488310a559bc6ea4496b50c981be1785d286af1f",
+      "output_sha256": "1a0bfbcca241128d15eeebd022c84b1baca3cfe195f8f0288d0ef53f3f7eb0bc",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-020/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-020-INLINE",
+      "input_sha256": "9ab1735f977d4cafd4fc87b8d9776067fa735993b97ae2b37fcef0d44b430d06",
+      "output_sha256": "06e4c12e553e52cee2a43bfc6bd5feb9e18f0ba1c97f9b44fc668b2d0a74a182",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-020/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-021-INLINE",
+      "input_sha256": "228a0847aee73cea22cb93734406d5bb51f60ba591399ca56c87c769ec7c3ab9",
+      "output_sha256": "502a544e19d9bc04e90d56c929b6d92af73450ca46bcddfcd77aafedd1bda482",
+      "input_dimensions": "1728x1344",
+      "output_dimensions": "1728x1344",
+      "output_path": "public/media/articles/FGA-021/inline-01.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-032-HERO",
+      "input_sha256": "31180fb1943d8b2a2db1dfe6f2feb6d68d7228fa52a28a621be74247d5e800aa",
+      "output_sha256": "05c909b5b32f7a35bca09322af06ff74315bdb6ad415e96a5e9eca6cc6862a5a",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-032/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-033-HERO",
+      "input_sha256": "3fb856574ee3116537ac357b9ccb74c8db4bb359acd91bb35e49746f0452a354",
+      "output_sha256": "81eda8efb3ac68e8ea45e6a4787881c1026de6c8e4a6ef5ad01a43cebb10e3f7",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-033/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-034-HERO",
+      "input_sha256": "94ef059fb4fd48c38528d8191fbd84a8c14e29dc0c4755210e6d42268c2814e0",
+      "output_sha256": "85918cd410fc606ddcf47f1cfb4142587414ce47e0b4dc1133f8da17ab5f4e3e",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-034/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-035-HERO",
+      "input_sha256": "2aacb5e9304829c00eac62e4d20bc9e0ddb9454d88a32525a2e2f094157bb34c",
+      "output_sha256": "e952736cafe7be33a5b2a41ba51050b1ef9b015752ff765f1141e02ee2d66a24",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-035/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-036-HERO",
+      "input_sha256": "c658bfbb39241e2d4251c3ae619502deeb4290626c98d34623d0969468946a7c",
+      "output_sha256": "56e7e93a4b99c8d5733cc0087d9e8643d4ffa63f0689cc6e773de15f752483bc",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-036/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-037-HERO",
+      "input_sha256": "5eb68f4ccc297b493ef25ae236f4d40c6490778662e638a1533a450b45e6034b",
+      "output_sha256": "fe9665b25752242010e2a64e9dc9a4131a83e3cdf3b2f577fca0048b3d517f3f",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-037/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-039-HERO",
+      "input_sha256": "6c1b8f2ca83388a94cb7bb81ed003bbe663832f77c1a5036a284b31481980758",
+      "output_sha256": "596dc102b70a7258da7633f4374a7b927e5e2e66fbd15eba110ad1125062b79e",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-039/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-040-HERO",
+      "input_sha256": "8951bad99a1d32d9918823ade1725e6a14d17d080eac6b5fd448c13053798e9e",
+      "output_sha256": "8427e7e48535c8af88b476b38ee82e85f425ee40d2cb4936b5dd144a12feffb7",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-040/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-041-HERO",
+      "input_sha256": "399a9faf197452915b3a9e95e74f3be6c79373507b072ed2eeae2114a83fa07e",
+      "output_sha256": "d32192c57c442f5bf42cbd3771eb006f6996a2a60cdc663ed46343df7bb3e340",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-041/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-042-HERO",
+      "input_sha256": "f4f9fc840a196f768408bc343381542215b7fc814224070a19ffddb419f21799",
+      "output_sha256": "6455438b66de6cc04b783df5905491098f2287402f891c0f927599403b36845c",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-042/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-043-HERO",
+      "input_sha256": "87b9408b8857b7447d14c24b2ea39f58c0d28c12b87c91f31754965e1685a8bd",
+      "output_sha256": "469438f016f073f5ca6625ca08ad07ebf95d1624185523599ccc622edd58100d",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-043/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-044-HERO",
+      "input_sha256": "6dadcaf6f70ea63b3a6589b722be5b44d7867d57f8fa60dddeaab4aa31268eee",
+      "output_sha256": "e9e218a7fc33a78748a1a8e242f2cb35b948cea6f516ea0724042d079e33b2c5",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-044/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-045-HERO",
+      "input_sha256": "f6ae21c652fa7f7d94a7859b516dd3e56eadf1f1daab8cd1f3923ee719ae074a",
+      "output_sha256": "332a951f67571573eddfdba406bd8ca37554921d34330287672f64503d6670b8",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-045/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-046-HERO",
+      "input_sha256": "dd68fe1d61405d43a7d73471a4281bc54272b9d595dc9839912ef43bfd63a916",
+      "output_sha256": "890472f8de952b53a6b608ca090ac450ff122d080bb9ea258c9afbca0fe07ce4",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-046/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-047-HERO",
+      "input_sha256": "ca3fcf7fba29302822c81abb63a496cdefb7435ad18c4bcb7d38e88d2f54b8dc",
+      "output_sha256": "77f178944535025c0d614eb1e341f9cddaa5f1267c550360402a7ac9fdbe2b7e",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-047/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-048-HERO",
+      "input_sha256": "593e7368685f91cd6c44567bcf8dd65211c216a6328e73c99dd8b9219c6a8aa1",
+      "output_sha256": "95d0b4e6a098ad2ab677ee1bd8e9254ae6f0400d18f950bb7b023d771d476924",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-048/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-049-HERO",
+      "input_sha256": "b38a93364c8e4f4cf0c612607e9f8aa1838fd2e7a4530d58fa8fd3dcedce0d11",
+      "output_sha256": "21e5b891a0715d21c2bd0c2e688e3aa7eae92538ad655c1abad7edbeb7faacc4",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-049/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    },
+    {
+      "slot_id": "FGA-050-HERO",
+      "input_sha256": "6fc37375a97d16eda0b3f80ca4f65c76a0273fa0b30cf5877d8871b8f8a8b956",
+      "output_sha256": "fc43908e9c078a33926314c5a6097791505e7bba3428f5a6c1cf923dfa8954ca",
+      "input_dimensions": "2016x1152",
+      "output_dimensions": "2016x1152",
+      "output_path": "public/media/articles/FGA-050/hero.webp",
+      "status": "LOCAL_FILE_VERIFIED_PENDING_EDITORIAL_APPROVAL"
+    }
+  ]
+}

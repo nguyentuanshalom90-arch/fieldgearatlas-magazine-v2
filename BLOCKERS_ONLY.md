@@ -1,6 +1,6 @@
 # Blockers only
 
-1. `MEDIA_LOCAL_FILE_COVERAGE_106` is HOLD: 65 manifest slots have no local binary. The 29 Figma inline slots were imported and hash-verified; the remaining Adobe/category and article-hero records still require authenticated export or separately supplied local files. Direct smoke checks returned `403 application/xml` for sampled Adobe Firefly short URLs and `400 text/html` for sampled Figma references before the authenticated Figma staging workflow succeeded.
+1. `MEDIA_LOCAL_FILE_COVERAGE_106` is technically complete: all 106 manifest slots now have local WebP binaries and per-slot hashable files. `ADOBE_IMPORT_RESULTS_65.json` records the 65 authenticated Adobe exports; editorial release is still not authorized.
 2. `MEDIA_EDITORIAL_RIGHTS` is HOLD: per-file rights/release authorization is not included.
 3. `VISUAL_PARITY_7` cannot be marked PASS yet: screenshots prove responsive rendering and P0 geometry fixes, but the approved references use imagery not present locally and owner design acceptance is still pending.
 4. `ARTICLE_PROPOSED_TEMPLATE` remains owner-review pending by design.

@@ -9,7 +9,8 @@ All commands ran in `fieldgearatlas-magazine-v2` on 2026-10-29.
 | `npm run typecheck` | PASS |
 | `npm test` | PASS; 3/3 tests |
 | `npm run audit:staging` | PASS; 50 articles, private-only, release authorization false |
-| `npm run audit:media` | PASS as an honest coverage report; 106 manifest, 41 local slots (29 Figma inline imports plus bundled local slots) |
+| `npm run audit:media` | PASS; 106 manifest slots, 106 local verified slots, 0 missing; rights/release authorization remains pending |
+| `npm run import:adobe` | PASS; 65/65 authenticated Adobe exports converted to local WebP with dimensions and SHA-256 records |
 | `npm run import:figma` | PASS for the 29-slot Figma staging workflow; `FIGMA_IMPORT_RESULTS_29.json` records 29/29 technical imports, with editorial/rights approval still pending |
 | `npm run capture:visuals` | PASS after media import; 32 real screenshots, 0 horizontal overflow, 0 broken images |
 | `npm run audit:public` | PASS; preview guard and server-side private loader confirmed |

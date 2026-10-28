@@ -7,3 +7,4 @@ SCREENSHOTS/*.png
 *.log
 *.tsbuildinfo
 .media-staging/
+.adobe-staging/

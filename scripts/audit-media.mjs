@@ -1,4 +1,31 @@
-import fs from "node:fs";import path from "node:path";import crypto from "node:crypto";
-const root=process.cwd();const csv=fs.readFileSync(path.join(root,"reference/MEDIA_SOURCE_OF_TRUTH_106.csv"),"utf8").trim().split(/\r?\n/);const rows=csv.slice(1).map(line=>line.split(","));const files=[];for(const entry of fs.readdirSync(path.join(root,"public/media/articles"),{withFileTypes:true})){if(entry.isDirectory())for(const f of fs.readdirSync(path.join(root,"public/media/articles",entry.name)))files.push(path.join("public/media/articles",entry.name,f));}
-const report=["slot_id,local_status,local_path,sha256,notes"];for(const line of csv.slice(1)){const [slot,article,,role]=line.split(",");let file="";if(article&&role.includes("hero"))file=`public/media/articles/${article}/hero.webp`;if(article&&role.includes("thumb"))file=`public/media/articles/${article}/thumb.webp`;if(article&&role.includes("inline"))file=`public/media/articles/${article}/inline-01.webp`;if(slot?.startsWith("CAT-"))file="";const exists=file&&fs.existsSync(path.join(root,file));const hash=exists?crypto.createHash("sha256").update(fs.readFileSync(path.join(root,file))).digest("hex"):"";report.push(`${slot},${exists?"LOCAL_FILE_VERIFIED":"MEDIA_MISSING"},${file},${hash},${exists?"Copied and hashable":"Source exists in manifest; binary not supplied"}`)}
-fs.writeFileSync(path.join(root,"MEDIA_IMPORT_REPORT_106.csv"),report.join("\n"));console.log(JSON.stringify({manifest:rows.length,localFiles:files.length,localSlots:report.filter(x=>x.includes("LOCAL_FILE_VERIFIED")).length,status:"SOURCE_COVERAGE_ONLY"},null,2));
+import fs from "node:fs";
+import path from "node:path";
+import crypto from "node:crypto";
+
+const root = process.cwd();
+const manifest = JSON.parse(fs.readFileSync(path.join(root, "reference", "MEDIA_SOURCE_OF_TRUTH_106.json"), "utf8").replace(/: NaN/g, ": null"));
+const rows = manifest.filter((row) => row.webp_target_in_V2);
+const report = ["slot_id,local_status,local_path,sha256,notes"];
+let localSlots = 0;
+for (const row of rows) {
+  const localPath = row.webp_target_in_V2;
+  const absolute = path.resolve(root, localPath);
+  const exists = fs.existsSync(absolute);
+  const hash = exists ? crypto.createHash("sha256").update(fs.readFileSync(absolute)).digest("hex") : "";
+  if (exists) localSlots += 1;
+  report.push(`${row.slot_id},${exists ? "LOCAL_FILE_VERIFIED" : "MEDIA_MISSING"},${localPath},${hash},${exists ? "Binary exists and is hashable" : "Source exists in manifest; binary missing"}`);
+}
+const mediaRoot = path.join(root, "public", "media");
+const localFiles = fs.existsSync(mediaRoot) ? walk(mediaRoot).length : 0;
+fs.writeFileSync(path.join(root, "MEDIA_IMPORT_REPORT_106.csv"), report.join("\n") + "\n");
+console.log(JSON.stringify({ manifest: rows.length, localFiles, localSlots, missingSlots: rows.length - localSlots, status: localSlots === rows.length ? "LOCAL_FILE_COVERAGE_COMPLETE_RIGHTS_PENDING" : "SOURCE_COVERAGE_ONLY" }, null, 2));
+
+function walk(dir) {
+  const result = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) result.push(...walk(full));
+    else result.push(full);
+  }
+  return result;
+}

@@ -17,11 +17,11 @@ Date: 2026-10-29 (Asia/Ho_Chi_Minh)
 |---|---|---|
 | NEW_REPO_INDEPENDENT | PASS | New Git root, own package/lockfile, no Prisma/.env.production, no V1 import |
 | PAGE_IMPLEMENTATION_7 | PASS | 8 browser routes rendered: home + 6 categories + article preview |
-| VISUAL_PARITY_7 | HOLD / OWNER REVIEW | 32 real screenshots and P0 layout fixes completed; mockup fidelity still needs owner sign-off and 65 missing Adobe/category/article-hero binaries prevent full media match |
+| VISUAL_PARITY_7 | HOLD / OWNER REVIEW | 32 real screenshots and P0 layout fixes completed; mockup fidelity and proposed article-template acceptance still need owner sign-off |
 | ARTICLE_PROPOSED_TEMPLATE | IMPLEMENTED / OWNER REVIEW PENDING | Protected FGA-001 preview with real staged source and diagrams |
 | CONTENT_PRIVATE_STAGING_50 | PASS | 50/50 article folders; all `release_authorized:false`, `draft_only:true` |
 | MEDIA_SOURCE_COVERAGE_106 | PASS | 106 manifest rows imported |
-| MEDIA_LOCAL_FILE_COVERAGE_106 | HOLD | 41/106 slots have local verified WebP binaries, including 29 Figma inline imports; 65 Adobe/category/article-hero slots remain missing |
+| MEDIA_LOCAL_FILE_COVERAGE_106 | TECHNICALLY COMPLETE / RIGHTS HOLD | 106/106 manifest slots have local verified WebP binaries; Adobe exports and Figma imports have per-slot SHA-256 records |
 | MEDIA_EDITORIAL_RIGHTS | HOLD | Asset rights/owner release approval not supplied |
 | RESPONSIVE_QA | PASS | Desktop/tablet/mobile/reference: 32 captures, 0 overflow, 0 broken images |
 | BUILD_AND_TESTS | PASS | Next 16.4.3 build, TypeScript, 3 integrity tests, staging/media/public audits |

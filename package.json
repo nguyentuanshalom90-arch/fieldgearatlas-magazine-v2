@@ -13,7 +13,8 @@
     "audit:staging": "node scripts/audit-staging.mjs",
     "audit:public": "node scripts/audit-public.mjs",
     "capture:visuals": "node scripts/capture-visuals.mjs",
-    "import:figma": "node scripts/import-figma-29.mjs"
+    "import:figma": "node scripts/import-figma-29.mjs",
+    "import:adobe": "node scripts/import-adobe-65.mjs"
   },
   "dependencies": {
     "next": "^16.4.3",
