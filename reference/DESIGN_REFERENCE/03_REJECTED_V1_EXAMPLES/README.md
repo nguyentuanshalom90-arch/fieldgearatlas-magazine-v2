@@ -1,0 +1,1 @@
+These six are user screenshots of V1 localhost that was visually rejected. They are **negative examples only**, NEVER an approved design target or source of photographic assets. Do not copy V1 code or appearance.

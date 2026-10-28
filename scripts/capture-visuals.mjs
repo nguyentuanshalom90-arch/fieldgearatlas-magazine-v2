@@ -1,0 +1,9 @@
+import { chromium } from "playwright";
+import fs from "node:fs";
+import path from "node:path";
+const base=process.env.V2_BASE_URL||"http://localhost:3004";
+const routes=["/","/topics/boots","/topics/rucking","/topics/packs","/topics/clothing","/topics/field-sleep","/topics/surplus","/preview/guides/FGA-001?preview=1&key=local-v2"];
+const sizes={desktop:[1440,900],tablet:[768,1024],mobile:[390,844],reference:[1122,1402]};
+const out=path.join(process.cwd(),"SCREENSHOTS");fs.mkdirSync(out,{recursive:true});
+const browser=await chromium.launch({headless:true});const results=[];
+for(const [size,[width,height]] of Object.entries(sizes)){const context=await browser.newContext({viewport:{width,height}});const page=await context.newPage();for(const route of routes){await page.goto(base+route,{waitUntil:"networkidle"});await page.evaluate(()=>document.querySelectorAll("img").forEach(img=>{img.loading="eager";img.scrollIntoView({block:"center"});}));await page.waitForTimeout(250);const safe=route.replace(/[^a-z0-9]+/gi,"-").replace(/^-|-$/g,"");const name=`${size}-${safe||"home"}`;await page.screenshot({path:path.join(out,`${name}.png`),fullPage:true});const diag=await page.evaluate(()=>({width:document.documentElement.scrollWidth,height:document.documentElement.scrollHeight,viewport:innerWidth,overflow:document.documentElement.scrollWidth>innerWidth,overflowElements:[...document.querySelectorAll("*")].filter(e=>e.getBoundingClientRect().right>innerWidth+1).slice(0,6).map(e=>e.className||e.tagName),broken:[...document.images].filter(i=>!i.complete||i.naturalWidth===0).map(i=>i.src),title:document.title}));results.push({size,route,...diag});}await context.close()}await browser.close();fs.writeFileSync(path.join(out,"BROWSER_AUDIT_RESULTS.json"),JSON.stringify(results,null,2));console.log(JSON.stringify({captures:results.length,overflow:results.filter(x=>x.overflow).length,broken:results.reduce((n,x)=>n+x.broken.length,0),screenshots:out},null,2));

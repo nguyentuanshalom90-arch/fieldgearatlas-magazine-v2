@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Balaclava vs Neck Gaiter: Coverage Map">
+<title>Balaclava vs Neck Gaiter: Coverage Map</title><desc>Original FieldGearAtlas explanatory visual for general equipment selection. No commercial product or first-hand test shown.</desc>
+<rect width="1600" height="900" fill="#FFF8F0"/>
+<text x="62" y="66" fill="#354A35" text-anchor="start" font-family="Arial, sans-serif" font-size="23" font-weight="700">FIELDGEARATLAS  /  ORIGINAL RESEARCH VISUAL</text>
+<line x1="62" y1="86" x2="1538" y2="86" stroke="#875B3C" stroke-width="4" />
+<text x="62" y="148" fill="#273429" text-anchor="start" font-family="Arial, sans-serif" font-size="54" font-weight="700">Balaclava vs Neck Gaiter: Coverage Map</text><text x="1536" y="149" fill="#875B3C" text-anchor="end" font-family="Arial, sans-serif" font-size="22" font-weight="700">COVERAGE</text>
+<rect x="62" y="188" width="680" height="525" rx="14" fill="white" stroke="#e5e6d9" stroke-width="3"/>
+<text x="97" y="238" fill="#354A35" text-anchor="start" font-family="Arial, sans-serif" font-size="32" font-weight="700">Balaclava</text>
+<text x="97" y="277" fill="#875B3C" text-anchor="start" font-family="Arial, sans-serif" font-size="21" font-weight="400">Typically covers more head and face area</text>
+<path d="M292 375 Q382 317 472 375 L490 535 Q382 637 272 535 Z" fill="#e0bd9d" stroke="#875B3C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M274 390 Q382 301 493 390 L494 583 Q372 624 267 582 Z" fill="#627754" stroke="#354A35" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="302" y="428" width="162" height="48" rx="26" fill="#fff5e7" stroke="#875B3C" stroke-width="3"/>
+<rect x="321" y="497" width="120" height="39" rx="20" fill="#f1d2bd" stroke="#875B3C" stroke-width="3"/><rect x="858" y="188" width="680" height="525" rx="14" fill="white" stroke="#e5e6d9" stroke-width="3"/>
+<text x="893" y="238" fill="#354A35" text-anchor="start" font-family="Arial, sans-serif" font-size="32" font-weight="700">Neck gaiter</text>
+<text x="893" y="277" fill="#875B3C" text-anchor="start" font-family="Arial, sans-serif" font-size="21" font-weight="400">Can be repositioned; coverage varies</text>
+<path d="M1088 375 Q1178 317 1268 375 L1286 535 Q1178 637 1068 535 Z" fill="#e0bd9d" stroke="#875B3C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1058 485 L1294 482 L1292 632 L1070 632 Z" fill="#627754" stroke="#354A35" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="62" y="765" width="1476" height="87" rx="16" fill="#354A35" stroke="#354A35" stroke-width="3"/><text x="92" y="817" fill="#ffffff" text-anchor="start" font-family="Arial, sans-serif" font-size="27" font-weight="700">FIT, BREATHING AND MATERIAL MATTER MORE THAN THE NAME.</text>
+</svg>

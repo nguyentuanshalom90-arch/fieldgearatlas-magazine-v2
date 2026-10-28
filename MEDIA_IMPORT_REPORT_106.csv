@@ -1,0 +1,107 @@
+slot_id,local_status,local_path,sha256,notes
+CAT-01-BANNER,MEDIA_MISSING,,,Source exists in manifest; binary not supplied
+CAT-02-BANNER,MEDIA_MISSING,,,Source exists in manifest; binary not supplied
+CAT-03-BANNER,MEDIA_MISSING,,,Source exists in manifest; binary not supplied
+CAT-04-BANNER,MEDIA_MISSING,,,Source exists in manifest; binary not supplied
+CAT-05-BANNER,MEDIA_MISSING,,,Source exists in manifest; binary not supplied
+CAT-06-BANNER,MEDIA_MISSING,,,Source exists in manifest; binary not supplied
+FGA-001-HERO,MEDIA_MISSING,public/media/articles/FGA-001/hero.webp,,Source exists in manifest; binary not supplied
+FGA-001-INLINE,MEDIA_MISSING,public/media/articles/FGA-001/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-002-HERO,MEDIA_MISSING,public/media/articles/FGA-002/hero.webp,,Source exists in manifest; binary not supplied
+FGA-002-INLINE,MEDIA_MISSING,public/media/articles/FGA-002/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-003-HERO,MEDIA_MISSING,public/media/articles/FGA-003/hero.webp,,Source exists in manifest; binary not supplied
+FGA-003-INLINE,MEDIA_MISSING,public/media/articles/FGA-003/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-004-HERO,MEDIA_MISSING,public/media/articles/FGA-004/hero.webp,,Source exists in manifest; binary not supplied
+FGA-004-INLINE,MEDIA_MISSING,public/media/articles/FGA-004/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-005-HERO,MEDIA_MISSING,public/media/articles/FGA-005/hero.webp,,Source exists in manifest; binary not supplied
+FGA-005-INLINE,MEDIA_MISSING,public/media/articles/FGA-005/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-006-HERO,MEDIA_MISSING,public/media/articles/FGA-006/hero.webp,,Source exists in manifest; binary not supplied
+FGA-006-INLINE,MEDIA_MISSING,public/media/articles/FGA-006/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-007-HERO,MEDIA_MISSING,public/media/articles/FGA-007/hero.webp,,Source exists in manifest; binary not supplied
+FGA-007-INLINE,MEDIA_MISSING,public/media/articles/FGA-007/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-008-HERO,MEDIA_MISSING,public/media/articles/FGA-008/hero.webp,,Source exists in manifest; binary not supplied
+FGA-008-INLINE,MEDIA_MISSING,public/media/articles/FGA-008/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-009-HERO,MEDIA_MISSING,public/media/articles/FGA-009/hero.webp,,Source exists in manifest; binary not supplied
+FGA-009-INLINE,MEDIA_MISSING,public/media/articles/FGA-009/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-010-HERO,MEDIA_MISSING,public/media/articles/FGA-010/hero.webp,,Source exists in manifest; binary not supplied
+FGA-010-INLINE,MEDIA_MISSING,public/media/articles/FGA-010/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-011-HERO,MEDIA_MISSING,public/media/articles/FGA-011/hero.webp,,Source exists in manifest; binary not supplied
+FGA-011-INLINE,MEDIA_MISSING,public/media/articles/FGA-011/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-012-HERO,MEDIA_MISSING,public/media/articles/FGA-012/hero.webp,,Source exists in manifest; binary not supplied
+FGA-012-INLINE,MEDIA_MISSING,public/media/articles/FGA-012/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-013-HERO,MEDIA_MISSING,public/media/articles/FGA-013/hero.webp,,Source exists in manifest; binary not supplied
+FGA-013-INLINE,MEDIA_MISSING,public/media/articles/FGA-013/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-014-HERO,MEDIA_MISSING,public/media/articles/FGA-014/hero.webp,,Source exists in manifest; binary not supplied
+FGA-014-INLINE,MEDIA_MISSING,public/media/articles/FGA-014/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-015-HERO,MEDIA_MISSING,public/media/articles/FGA-015/hero.webp,,Source exists in manifest; binary not supplied
+FGA-015-INLINE,MEDIA_MISSING,public/media/articles/FGA-015/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-016-HERO,MEDIA_MISSING,public/media/articles/FGA-016/hero.webp,,Source exists in manifest; binary not supplied
+FGA-016-INLINE,MEDIA_MISSING,public/media/articles/FGA-016/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-017-HERO,MEDIA_MISSING,public/media/articles/FGA-017/hero.webp,,Source exists in manifest; binary not supplied
+FGA-017-INLINE,MEDIA_MISSING,public/media/articles/FGA-017/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-018-HERO,MEDIA_MISSING,public/media/articles/FGA-018/hero.webp,,Source exists in manifest; binary not supplied
+FGA-018-INLINE,MEDIA_MISSING,public/media/articles/FGA-018/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-019-HERO,MEDIA_MISSING,public/media/articles/FGA-019/hero.webp,,Source exists in manifest; binary not supplied
+FGA-019-INLINE,MEDIA_MISSING,public/media/articles/FGA-019/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-020-HERO,MEDIA_MISSING,public/media/articles/FGA-020/hero.webp,,Source exists in manifest; binary not supplied
+FGA-020-INLINE,MEDIA_MISSING,public/media/articles/FGA-020/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-021-HERO,LOCAL_FILE_VERIFIED,public/media/articles/FGA-021/hero.webp,6604af8215373cff8724641708937999437fb4c42bdfa6a98c96ff1027ff2065,Copied and hashable
+FGA-021-INLINE,MEDIA_MISSING,public/media/articles/FGA-021/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-022-HERO,LOCAL_FILE_VERIFIED,public/media/articles/FGA-022/hero.webp,fc8e8878fdc1d245aa1e39715b922410fb87ddff3b0ff5903f98f733a534ba97,Copied and hashable
+FGA-022-INLINE,MEDIA_MISSING,public/media/articles/FGA-022/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-023-HERO,LOCAL_FILE_VERIFIED,public/media/articles/FGA-023/hero.webp,b7efd3628d2d387995628380f276d91bd39fa2661b135593c8417049e0917ee7,Copied and hashable
+FGA-023-INLINE,MEDIA_MISSING,public/media/articles/FGA-023/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-024-HERO,LOCAL_FILE_VERIFIED,public/media/articles/FGA-024/hero.webp,9bbc6f0d331f1cebca115d68e36c442ec6ec797c63060d2006f492bc06ddb4b3,Copied and hashable
+FGA-024-INLINE,MEDIA_MISSING,public/media/articles/FGA-024/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-025-HERO,LOCAL_FILE_VERIFIED,public/media/articles/FGA-025/hero.webp,51a34ce7a07f2745b23d9a8a9342fc1255f6e457005e247ab735548fcc36c50d,Copied and hashable
+FGA-025-INLINE,MEDIA_MISSING,public/media/articles/FGA-025/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-026-HERO,LOCAL_FILE_VERIFIED,public/media/articles/FGA-026/hero.webp,145aa73a87cdfb1b0ea7959aed6a161027939026fbe783abe09f9d9902eb4e57,Copied and hashable
+FGA-026-INLINE,MEDIA_MISSING,public/media/articles/FGA-026/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-027-HERO,LOCAL_FILE_VERIFIED,public/media/articles/FGA-027/hero.webp,d90008eabccfc7ff2ce38da3b6ec47eedbf431ce882d4c348da90c26a073c9e3,Copied and hashable
+FGA-027-INLINE,MEDIA_MISSING,public/media/articles/FGA-027/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-028-HERO,LOCAL_FILE_VERIFIED,public/media/articles/FGA-028/hero.webp,eb7c5a46b9152f320e098ef25726c79bf230af46b2aab35886705c9f21547b21,Copied and hashable
+FGA-028-INLINE,MEDIA_MISSING,public/media/articles/FGA-028/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-029-HERO,LOCAL_FILE_VERIFIED,public/media/articles/FGA-029/hero.webp,dc997ecc3869477663f59c7a4096078096638485e665c2cc4fba55c3d92af2a8,Copied and hashable
+FGA-029-INLINE,MEDIA_MISSING,public/media/articles/FGA-029/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-030-HERO,LOCAL_FILE_VERIFIED,public/media/articles/FGA-030/hero.webp,eaa363d07eb201b3483e9afb401eabe677ca02fe31383c9f780cd60ab1ba8c74,Copied and hashable
+FGA-030-INLINE,MEDIA_MISSING,public/media/articles/FGA-030/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-031-HERO,LOCAL_FILE_VERIFIED,public/media/articles/FGA-031/hero.webp,016acc80d61e6a95ea0d47ddefd0fa7ded28d4915e862b872fc1a371f57d5ecc,Copied and hashable
+FGA-031-INLINE,MEDIA_MISSING,public/media/articles/FGA-031/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-032-HERO,MEDIA_MISSING,public/media/articles/FGA-032/hero.webp,,Source exists in manifest; binary not supplied
+FGA-032-INLINE,MEDIA_MISSING,public/media/articles/FGA-032/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-033-HERO,MEDIA_MISSING,public/media/articles/FGA-033/hero.webp,,Source exists in manifest; binary not supplied
+FGA-033-INLINE,MEDIA_MISSING,public/media/articles/FGA-033/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-034-HERO,MEDIA_MISSING,public/media/articles/FGA-034/hero.webp,,Source exists in manifest; binary not supplied
+FGA-034-INLINE,MEDIA_MISSING,public/media/articles/FGA-034/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-035-HERO,MEDIA_MISSING,public/media/articles/FGA-035/hero.webp,,Source exists in manifest; binary not supplied
+FGA-035-INLINE,MEDIA_MISSING,public/media/articles/FGA-035/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-036-HERO,MEDIA_MISSING,public/media/articles/FGA-036/hero.webp,,Source exists in manifest; binary not supplied
+FGA-036-INLINE,MEDIA_MISSING,public/media/articles/FGA-036/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-037-HERO,MEDIA_MISSING,public/media/articles/FGA-037/hero.webp,,Source exists in manifest; binary not supplied
+FGA-037-INLINE,MEDIA_MISSING,public/media/articles/FGA-037/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-038-HERO,LOCAL_FILE_VERIFIED,public/media/articles/FGA-038/hero.webp,e2abcf4c305fc6aeeecfdda0a7982e26eb2746b9bbd11ef2269e6fcbcc95d3c3,Copied and hashable
+FGA-038-INLINE,MEDIA_MISSING,public/media/articles/FGA-038/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-039-HERO,MEDIA_MISSING,public/media/articles/FGA-039/hero.webp,,Source exists in manifest; binary not supplied
+FGA-039-INLINE,MEDIA_MISSING,public/media/articles/FGA-039/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-040-HERO,MEDIA_MISSING,public/media/articles/FGA-040/hero.webp,,Source exists in manifest; binary not supplied
+FGA-040-INLINE,MEDIA_MISSING,public/media/articles/FGA-040/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-041-HERO,MEDIA_MISSING,public/media/articles/FGA-041/hero.webp,,Source exists in manifest; binary not supplied
+FGA-041-INLINE,MEDIA_MISSING,public/media/articles/FGA-041/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-042-HERO,MEDIA_MISSING,public/media/articles/FGA-042/hero.webp,,Source exists in manifest; binary not supplied
+FGA-042-INLINE,MEDIA_MISSING,public/media/articles/FGA-042/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-043-HERO,MEDIA_MISSING,public/media/articles/FGA-043/hero.webp,,Source exists in manifest; binary not supplied
+FGA-043-INLINE,MEDIA_MISSING,public/media/articles/FGA-043/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-044-HERO,MEDIA_MISSING,public/media/articles/FGA-044/hero.webp,,Source exists in manifest; binary not supplied
+FGA-044-INLINE,MEDIA_MISSING,public/media/articles/FGA-044/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-045-HERO,MEDIA_MISSING,public/media/articles/FGA-045/hero.webp,,Source exists in manifest; binary not supplied
+FGA-045-INLINE,MEDIA_MISSING,public/media/articles/FGA-045/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-046-HERO,MEDIA_MISSING,public/media/articles/FGA-046/hero.webp,,Source exists in manifest; binary not supplied
+FGA-046-INLINE,MEDIA_MISSING,public/media/articles/FGA-046/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-047-HERO,MEDIA_MISSING,public/media/articles/FGA-047/hero.webp,,Source exists in manifest; binary not supplied
+FGA-047-INLINE,MEDIA_MISSING,public/media/articles/FGA-047/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-048-HERO,MEDIA_MISSING,public/media/articles/FGA-048/hero.webp,,Source exists in manifest; binary not supplied
+FGA-048-INLINE,MEDIA_MISSING,public/media/articles/FGA-048/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-049-HERO,MEDIA_MISSING,public/media/articles/FGA-049/hero.webp,,Source exists in manifest; binary not supplied
+FGA-049-INLINE,MEDIA_MISSING,public/media/articles/FGA-049/inline-01.webp,,Source exists in manifest; binary not supplied
+FGA-050-HERO,MEDIA_MISSING,public/media/articles/FGA-050/hero.webp,,Source exists in manifest; binary not supplied
+FGA-050-INLINE,MEDIA_MISSING,public/media/articles/FGA-050/inline-01.webp,,Source exists in manifest; binary not supplied

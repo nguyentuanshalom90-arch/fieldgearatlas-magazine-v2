@@ -1,0 +1,29 @@
+{
+  "name": "fieldgearatlas-magazine-v2",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 3004",
+    "build": "next build",
+    "start": "next start -p 3004",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs",
+    "audit:media": "node scripts/audit-media.mjs",
+    "audit:staging": "node scripts/audit-staging.mjs",
+    "audit:public": "node scripts/audit-public.mjs",
+    "capture:visuals": "node scripts/capture-visuals.mjs"
+  },
+  "dependencies": {
+    "next": "^16.4.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "playwright": "^1.64.1",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Poncho vs Rain Jacket: Where Water Can Enter">
+<title>Poncho vs Rain Jacket: Where Water Can Enter</title><desc>Original FieldGearAtlas explanatory visual for general equipment selection. No commercial product or first-hand test shown.</desc>
+<rect width="1600" height="900" fill="#FFF8F0"/>
+<text x="62" y="66" fill="#354A35" text-anchor="start" font-family="Arial, sans-serif" font-size="23" font-weight="700">FIELDGEARATLAS  /  ORIGINAL RESEARCH VISUAL</text>
+<line x1="62" y1="86" x2="1538" y2="86" stroke="#875B3C" stroke-width="4" />
+<text x="62" y="148" fill="#273429" text-anchor="start" font-family="Arial, sans-serif" font-size="54" font-weight="700">Poncho vs Rain Jacket: Where Water Can Enter</text><text x="1536" y="149" fill="#875B3C" text-anchor="end" font-family="Arial, sans-serif" font-size="22" font-weight="700">RAIN TRADE-OFFS</text>
+<rect x="62" y="188" width="680" height="525" rx="14" fill="white" stroke="#e5e6d9" stroke-width="3"/>
+<text x="97" y="238" fill="#354A35" text-anchor="start" font-family="Arial, sans-serif" font-size="32" font-weight="700">Loose poncho</text>
+<text x="97" y="277" fill="#875B3C" text-anchor="start" font-family="Arial, sans-serif" font-size="21" font-weight="400">Wide coverage; hems can lift in wind</text>
+<path d="M359 309 Q402 344 423 375 L620 570 Q397 659 158 570 L295 382 Z" fill="#5e7553" stroke="#354A35" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="185" y1="300" x2="162" y2="362" stroke="#875B3C" stroke-width="5" />
+<line x1="265" y1="300" x2="242" y2="362" stroke="#875B3C" stroke-width="5" />
+<line x1="345" y1="300" x2="322" y2="362" stroke="#875B3C" stroke-width="5" />
+<line x1="425" y1="300" x2="402" y2="362" stroke="#875B3C" stroke-width="5" />
+<line x1="505" y1="300" x2="482" y2="362" stroke="#875B3C" stroke-width="5" /><rect x="858" y="188" width="680" height="525" rx="14" fill="white" stroke="#e5e6d9" stroke-width="3"/>
+<text x="893" y="238" fill="#354A35" text-anchor="start" font-family="Arial, sans-serif" font-size="32" font-weight="700">Fitted jacket</text>
+<text x="893" y="277" fill="#875B3C" text-anchor="start" font-family="Arial, sans-serif" font-size="21" font-weight="400">Better controlled fit; separate pack coverage</text>
+<path d="M1128 325 L1228 325 L1282 378 L1355 457 L1316 513 L1290 482 L1280 663 L1075 663 L1065 482 L1039 513 L1000 457 L1075 378 Z" fill="#6c7959" stroke="#354A35" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1128 325 L1178 385 L1228 325" fill="none" stroke="#875B3C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1178" y1="386" x2="1178" y2="663" stroke="#FFF8F0" stroke-width="4" />
+<rect x="1078" y="513" width="100" height="80" rx="14" fill="#7c8a67" stroke="#875B3C" stroke-width="3"/>
+<rect x="1183" y="513" width="96" height="80" rx="14" fill="#7c8a67" stroke="#875B3C" stroke-width="3"/>
+<line x1="1050" y1="290" x2="1020" y2="339" stroke="#875B3C" stroke-width="5" />
+<line x1="1120" y1="290" x2="1090" y2="339" stroke="#875B3C" stroke-width="5" />
+<line x1="1190" y1="290" x2="1160" y2="339" stroke="#875B3C" stroke-width="5" />
+<line x1="1260" y1="290" x2="1230" y2="339" stroke="#875B3C" stroke-width="5" />
+<line x1="1330" y1="290" x2="1300" y2="339" stroke="#875B3C" stroke-width="5" />
+<rect x="62" y="765" width="1476" height="87" rx="16" fill="#354A35" stroke="#354A35" stroke-width="3"/><text x="92" y="817" fill="#ffffff" text-anchor="start" font-family="Arial, sans-serif" font-size="27" font-weight="700">CHECK HOOD, SEAMS, OPEN EDGES AND PACK LINER.</text>
+</svg>

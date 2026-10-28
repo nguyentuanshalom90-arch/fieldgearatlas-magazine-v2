@@ -1,0 +1,9 @@
+﻿design_id,page,reference_filename,approval,suggested_route_NOT_CANONICAL,critical_visual_requirements
+00,Homepage,00_homepage_approved.png,APPROVED,/,Above-fold lead photo big + four small stories mosaic; six category tiles; latest; most-read/editorial modules; photo-led
+01,Boots & Fit,01_boots_and_fit_approved.png,APPROVED,/topics/boots/,Distinct boot panorama; big comparison stories; quick-read editorial rows; sidebar
+02,Rucking & Training,02_rucking_and_training_approved.png,APPROVED,/topics/rucking/,Wide rucking landscape hero; mixed feature mosaic; training modules; card density
+03,Packs & Carry,03_packs_and_carry_approved.png,APPROVED,/topics/packs/,"Pack/ruck hero; alternating photo grid, loadout topics and mini story strips"
+04,Clothing & Protection,04_clothing_and_protection_approved.png,APPROVED,/topics/clothing/,Many-size mosaic of apparel closeups; layered groups; three subtopic lanes
+05,Field & Sleep,05_field_and_sleep_approved.png,APPROVED,/topics/field-sleep/,Campsite panoramic hero; sleep systems photo cards; compact subtopic navigation
+06,Surplus & Heritage,06_surplus_and_heritage_approved.png,APPROVED,/topics/surplus/,Archive-inspired product still-life; identifier/condition article photo wall; credible heritage tone
+07,Article detail,article-desktop.png,PROPOSED_NOT_OWNER_APPROVED,/preview/guides/FGA-001/,Readable long-form with real sources; side TOC on desktop; rich inline images; technical SVG/worksheet; one-column mobile

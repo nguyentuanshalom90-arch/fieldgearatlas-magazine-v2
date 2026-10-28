@@ -1,0 +1,39 @@
+/* FieldGearAtlas original component CSS; independent of site's other styles. */
+.fga-worksheet{--fga-olive:#354A35;--fga-brown:#875B3C;--fga-txt:#213127;--fga-border:#CED8CC;font:inherit;color:var(--fga-txt);background:#FBFAF7;border:1px solid var(--fga-border);border-radius:18px;padding:clamp(16px,3vw,32px);margin:30px 0 36px;line-height:1.5}
+.fga-worksheet *{box-sizing:border-box}
+.fga-worksheet .fw-eyebrow{font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;font-weight:750;color:var(--fga-brown)}
+.fga-worksheet h3{font-size:clamp(1.25rem,2.7vw,1.65rem);line-height:1.25;color:var(--fga-olive);margin:8px 0 12px}
+.fga-worksheet h4{font-size:1.05rem;color:var(--fga-olive);margin:0 0 12px}
+.fga-worksheet .fw-note{font-size:.91rem;color:#43554A;margin:8px 0 16px}
+.fga-worksheet .fw-layout{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.fga-worksheet .fw-panel{background:#fff;border:1px solid var(--fga-border);padding:17px;border-radius:12px;min-width:0}
+.fga-worksheet .fw-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fga-worksheet .fw-field{display:flex;flex-direction:column;gap:5px;min-width:0;margin:0 0 12px}
+.fga-worksheet label,.fga-worksheet .fw-legend{font-size:.85rem;font-weight:720;line-height:1.35}
+.fga-worksheet input,.fga-worksheet select{appearance:auto;width:100%;background:#fff;color:#1E2921;border:1px solid #83978A;border-radius:7px;padding:10px 11px;font-size:1rem;line-height:1.3;min-height:44px}
+.fga-worksheet :is(input,select,button):focus-visible{outline:3px solid #D0A678;outline-offset:2px}
+.fga-worksheet input[aria-invalid=true]{border-color:#A13A27;background:#FFF7F6}
+.fga-worksheet .fw-toolbar{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin:15px 0 21px}
+.fga-worksheet .fw-toolbar .fw-field{margin:0;width:min(160px,100%)}
+.fga-worksheet .fw-card{background:#EAF0E7;border-radius:12px;padding:17px;margin-top:19px}
+.fga-worksheet .fw-card p{font-size:.92rem;margin:8px 0}
+.fga-worksheet .fw-summary{list-style:none;padding:0;margin:12px 0;display:grid;gap:5px}
+.fga-worksheet .fw-summary li{font-size:.94rem;margin:0;padding:0}
+.fga-worksheet .fw-suggestion{border-left:4px solid var(--fga-brown);padding:11px 15px;background:#FFF8EE;border-radius:5px}
+.fga-worksheet .fw-button-row{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}
+.fga-worksheet button{font:inherit;font-size:.90rem;font-weight:720;padding:11px 15px;border-radius:8px;border:1px solid var(--fga-olive);color:var(--fga-olive);background:#fff;cursor:pointer}
+.fga-worksheet button.fw-primary{background:var(--fga-olive);color:#fff}
+.fga-worksheet button:disabled{opacity:.48;cursor:not-allowed}
+.fga-worksheet .fw-error{color:#A13A27;font-size:.84rem;min-height:20px;margin:6px 0}
+.fga-worksheet .fw-hidden{display:none!important}
+.fga-worksheet .fw-print-only{display:none}
+.fga-worksheet a{color:#285E43}
+.fga-worksheet .fw-ref{font-size:.82rem;margin:13px 0 0}
+@media(max-width:680px){.fga-worksheet .fw-layout{grid-template-columns:1fr}.fga-worksheet .fw-grid{grid-template-columns:1fr 1fr}.fga-worksheet .fw-toolbar .fw-field{width:130px}}
+@media(max-width:380px){.fga-worksheet .fw-grid{grid-template-columns:1fr}}
+@media print{main>*:not(.fga-worksheet){display:none!important}main{margin:0!important;padding:0!important;max-width:none!important}body{background:#fff!important}.notice,header,footer{display:none!important}.fga-worksheet{break-inside:auto;border:0;padding:0;background:#fff}.fga-worksheet .fw-layout{grid-template-columns:1fr 1fr}.fga-worksheet .fw-no-print{display:none!important}.fga-worksheet .fw-print-only{display:block}.fga-worksheet .fw-panel,.fga-worksheet .fw-card{break-inside:avoid}.fga-worksheet .fw-print-fill{min-height:25px;border-bottom:1px solid #bbb}.fga-worksheet input,.fga-worksheet select{border:0;border-bottom:1px solid #aaa;border-radius:0;padding:4px;min-height:30px}.fga-worksheet h3{font-size:21px}}
+
+.fga-worksheet .fw-brand{background:#F6F3EB;border:1px solid #D9D6CB;padding:17px;border-radius:12px;margin-top:18px}
+.fga-worksheet .fw-brand-result{border-left:4px solid var(--fga-olive);padding:12px 16px;background:#fff;border-radius:6px}
+.fga-worksheet .fw-brand-result p{margin:5px 0 9px;font-size:.92rem}
+@media print{.fga-worksheet .fw-brand{display:none!important}}

@@ -1,0 +1,35 @@
+<section class="fga-worksheet" data-fga-width-worksheet aria-labelledby="fw-title">
+ <div class="fw-eyebrow">Free interactive field worksheet • By FieldGearAtlas</div>
+ <h3 id="fw-title">Record Your Boot Fit Measurements</h3>
+ <p class="fw-note">Enter measurements for both feet and save or print a personal fit record. All calculations happen in your browser; nothing is sent to FieldGearAtlas. This is a measurement notebook, <strong>not a D/EE size predictor</strong>.</p>
+ <div class="fw-toolbar fw-no-print"><div class="fw-field"><label for="fw-unit">Measurement unit</label><select id="fw-unit" name="unit"><option value="mm">Millimeters (mm)</option><option value="in">Inches (in)</option></select></div><span class="fw-note">Switch units without retyping measurements.</span></div>
+ <div class="fw-layout">
+  <fieldset class="fw-panel" style="border:1px solid var(--fga-border)"><legend class="fw-legend">Left foot</legend><div class="fw-grid">
+   <div class="fw-field"><label for="fw-leftLength">Heel-to-toe length</label><input id="fw-leftLength" name="leftLength" type="number" inputmode="decimal" step="0.1" min="0" placeholder="e.g. 275"></div>
+   <div class="fw-field"><label for="fw-leftWidth">Ball-of-foot width</label><input id="fw-leftWidth" name="leftWidth" type="number" inputmode="decimal" step="0.1" min="0" placeholder="e.g. 105"></div></div>
+   <div class="fw-field"><label for="fw-leftArch">Heel-to-ball length (optional)</label><input id="fw-leftArch" name="leftArch" type="number" inputmode="decimal" step="0.1" min="0"></div>
+  </fieldset>
+  <fieldset class="fw-panel" style="border:1px solid var(--fga-border)"><legend class="fw-legend">Right foot</legend><div class="fw-grid">
+   <div class="fw-field"><label for="fw-rightLength">Heel-to-toe length</label><input id="fw-rightLength" name="rightLength" type="number" inputmode="decimal" step="0.1" min="0" placeholder="e.g. 278"></div>
+   <div class="fw-field"><label for="fw-rightWidth">Ball-of-foot width</label><input id="fw-rightWidth" name="rightWidth" type="number" inputmode="decimal" step="0.1" min="0" placeholder="e.g. 107"></div></div>
+   <div class="fw-field"><label for="fw-rightArch">Heel-to-ball length (optional)</label><input id="fw-rightArch" name="rightArch" type="number" inputmode="decimal" step="0.1" min="0"></div>
+  </fieldset>
+ </div>
+ <div class="fw-layout" style="margin-top:18px">
+  <div class="fw-panel"><h4>Purchase context (optional)</h4>
+   <div class="fw-field"><label for="fw-model">Brand / model to check</label><input id="fw-model" name="model" type="text" maxlength="100" placeholder="e.g. a specific boot model"></div>
+   <div class="fw-field"><label for="fw-size">US shoe size you already know</label><input id="fw-size" name="size" type="text" maxlength="30" placeholder="Not calculated here"></div>
+   <div class="fw-field"><label for="fw-socks">Planned socks</label><select id="fw-socks" name="socks"><option value="">Choose (optional)</option><option value="Lightweight">Lightweight</option><option value="Medium boot socks">Medium boot socks</option><option value="Heavy winter socks">Heavy winter socks</option><option value="Other / not sure">Other / not sure</option></select></div>
+  </div>
+  <div class="fw-panel"><h4>Where does your current boot feel wrong?</h4>
+   <div class="fw-field"><label for="fw-problem">Primary fit issue</label><select id="fw-problem" name="problem"><option value="">Select a symptom</option><option value="ball">Squeezing across the ball of the foot</option><option value="toes">Toes crowded or touching the front</option><option value="instep">Pressure across top of the foot</option><option value="heel">Heel slipping while walking</option><option value="none">None — researching fit in advance</option></select></div>
+   <p class="fw-note">A wider labeled size may not solve a toe-box, instep or heel problem. Only a manufacturer-specific chart and fitting can narrow your choices.</p>
+  </div>
+ </div>
+ <div class="fw-brand" aria-labelledby="fw-brand-title"><h4 id="fw-brand-title">Source-checked width code reference</h4><p class="fw-note">Select a brand or model example. This translates published width labels; it does not turn a foot measurement into a shoe size.</p><div class="fw-field"><label for="fw-brand">Brand / product reference</label><select id="fw-brand" name="brand"><option value="">Choose a verified example (optional)</option><option value="belleville">Belleville men's boots</option><option value="danner">Danner men's footwear</option><option value="underarmour">Under Armour Micro G Valsetz Wide (2E)</option></select></div><div id="fw-brand-result" class="fw-brand-result" hidden aria-live="polite"></div></div>
+ <div class="fw-card" id="fw-output" aria-live="polite" aria-atomic="true"><h4>My fit record</h4><p class="fw-note" id="fw-counter"></p><ul class="fw-summary" id="fw-summary"></ul><p id="fw-empty"></p><p class="fw-suggestion"><strong>Next check:</strong> <span id="fw-next"></span></p></div>
+ <p class="fw-error" id="fw-error" role="alert"></p>
+ <div class="fw-button-row fw-no-print"><button type="button" class="fw-primary" id="fw-print">Print / Save as PDF</button><button type="button" id="fw-download">Download text record</button><button type="button" id="fw-reset">Clear</button></div>
+ <p class="fw-note"><strong>No universal conversion:</strong> Your millimeters or inches cannot be reliably converted into a D/EE width or US shoe size across every boot brand. Use <a href="https://brannock.com/pages/instructions-fitting-tips" target="_blank" rel="noopener noreferrer">Brannock fitting guidance</a> for complete measurements and <a href="https://www.bellevilleboot.com/index.php?l=page_view&amp;p=sizing_guide" target="_blank" rel="noopener noreferrer">Belleville's official sizing guide</a> as an example of brand-specific labels.</p>
+ <div class="fw-print-only"><p>Bring this worksheet to a fitter or compare it with your intended brand/model's current chart.</p></div>
+</section>

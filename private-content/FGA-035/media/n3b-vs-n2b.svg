@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="N-2B vs N-3B: Length and Coverage">
+<title>N-2B vs N-3B: Length and Coverage</title><desc>Original FieldGearAtlas explanatory visual for general equipment selection. No commercial product or first-hand test shown.</desc>
+<rect width="1600" height="900" fill="#FFF8F0"/>
+<text x="62" y="66" fill="#354A35" text-anchor="start" font-family="Arial, sans-serif" font-size="23" font-weight="700">FIELDGEARATLAS  /  ORIGINAL RESEARCH VISUAL</text>
+<line x1="62" y1="86" x2="1538" y2="86" stroke="#875B3C" stroke-width="4" />
+<text x="62" y="148" fill="#273429" text-anchor="start" font-family="Arial, sans-serif" font-size="54" font-weight="700">N-2B vs N-3B: Length and Coverage</text><text x="1536" y="149" fill="#875B3C" text-anchor="end" font-family="Arial, sans-serif" font-size="22" font-weight="700">PARKA FAMILIES</text>
+<rect x="62" y="188" width="680" height="525" rx="14" fill="white" stroke="#e5e6d9" stroke-width="3"/>
+<text x="97" y="238" fill="#354A35" text-anchor="start" font-family="Arial, sans-serif" font-size="32" font-weight="700">N-2B-style</text>
+<text x="97" y="277" fill="#875B3C" text-anchor="start" font-family="Arial, sans-serif" font-size="21" font-weight="400">Shorter-waist parka silhouette</text>
+<path d="M332 325 L432 325 L486 378 L559 457 L520 513 L494 482 L484 695 L279 695 L269 482 L243 513 L204 457 L279 378 Z" fill="#6c7959" stroke="#354A35" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M332 325 L382 385 L432 325" fill="none" stroke="#875B3C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="382" y1="386" x2="382" y2="695" stroke="#FFF8F0" stroke-width="4" />
+<rect x="282" y="513" width="100" height="80" rx="14" fill="#7c8a67" stroke="#875B3C" stroke-width="3"/>
+<rect x="387" y="513" width="96" height="80" rx="14" fill="#7c8a67" stroke="#875B3C" stroke-width="3"/>
+<path d="M327 333 Q382 230 437 333" fill="none" stroke="#875B3C" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M317 343 Q382 255 447 343" fill="none" stroke="#FFF8F0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><rect x="858" y="188" width="680" height="525" rx="14" fill="white" stroke="#e5e6d9" stroke-width="3"/>
+<text x="893" y="238" fill="#354A35" text-anchor="start" font-family="Arial, sans-serif" font-size="32" font-weight="700">N-3B-style</text>
+<text x="893" y="277" fill="#875B3C" text-anchor="start" font-family="Arial, sans-serif" font-size="21" font-weight="400">Longer parka silhouette</text>
+<path d="M1128 325 L1228 325 L1282 378 L1355 457 L1316 513 L1290 482 L1280 695 L1075 695 L1065 482 L1039 513 L1000 457 L1075 378 Z" fill="#6c7959" stroke="#354A35" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1128 325 L1178 385 L1228 325" fill="none" stroke="#875B3C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1178" y1="386" x2="1178" y2="695" stroke="#FFF8F0" stroke-width="4" />
+<rect x="1078" y="513" width="100" height="80" rx="14" fill="#7c8a67" stroke="#875B3C" stroke-width="3"/>
+<rect x="1183" y="513" width="96" height="80" rx="14" fill="#7c8a67" stroke="#875B3C" stroke-width="3"/>
+<rect x="62" y="765" width="1476" height="87" rx="16" fill="#354A35" stroke="#354A35" stroke-width="3"/><text x="92" y="817" fill="#ffffff" text-anchor="start" font-family="Arial, sans-serif" font-size="27" font-weight="700">DESIGNATION DOES NOT VERIFY ORIGIN OR THERMAL RATING.</text>
+</svg>

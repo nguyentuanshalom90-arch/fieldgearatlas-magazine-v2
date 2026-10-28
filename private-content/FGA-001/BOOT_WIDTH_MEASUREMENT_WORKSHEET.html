@@ -1,0 +1,115 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><title>Boot Width Measurement Worksheet — FGA V5</title><style>body{max-width:950px;margin:0 auto;padding:16px;font-family:system-ui;color:#253628}/* FieldGearAtlas original component CSS; independent of site's other styles. */
+.fga-worksheet{--fga-olive:#354A35;--fga-brown:#875B3C;--fga-txt:#213127;--fga-border:#CED8CC;font:inherit;color:var(--fga-txt);background:#FBFAF7;border:1px solid var(--fga-border);border-radius:18px;padding:clamp(16px,3vw,32px);margin:30px 0 36px;line-height:1.5}
+.fga-worksheet *{box-sizing:border-box}
+.fga-worksheet .fw-eyebrow{font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;font-weight:750;color:var(--fga-brown)}
+.fga-worksheet h3{font-size:clamp(1.25rem,2.7vw,1.65rem);line-height:1.25;color:var(--fga-olive);margin:8px 0 12px}
+.fga-worksheet h4{font-size:1.05rem;color:var(--fga-olive);margin:0 0 12px}
+.fga-worksheet .fw-note{font-size:.91rem;color:#43554A;margin:8px 0 16px}
+.fga-worksheet .fw-layout{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.fga-worksheet .fw-panel{background:#fff;border:1px solid var(--fga-border);padding:17px;border-radius:12px;min-width:0}
+.fga-worksheet .fw-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fga-worksheet .fw-field{display:flex;flex-direction:column;gap:5px;min-width:0;margin:0 0 12px}
+.fga-worksheet label,.fga-worksheet .fw-legend{font-size:.85rem;font-weight:720;line-height:1.35}
+.fga-worksheet input,.fga-worksheet select{appearance:auto;width:100%;background:#fff;color:#1E2921;border:1px solid #83978A;border-radius:7px;padding:10px 11px;font-size:1rem;line-height:1.3;min-height:44px}
+.fga-worksheet :is(input,select,button):focus-visible{outline:3px solid #D0A678;outline-offset:2px}
+.fga-worksheet input[aria-invalid=true]{border-color:#A13A27;background:#FFF7F6}
+.fga-worksheet .fw-toolbar{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin:15px 0 21px}
+.fga-worksheet .fw-toolbar .fw-field{margin:0;width:min(160px,100%)}
+.fga-worksheet .fw-card{background:#EAF0E7;border-radius:12px;padding:17px;margin-top:19px}
+.fga-worksheet .fw-card p{font-size:.92rem;margin:8px 0}
+.fga-worksheet .fw-summary{list-style:none;padding:0;margin:12px 0;display:grid;gap:5px}
+.fga-worksheet .fw-summary li{font-size:.94rem;margin:0;padding:0}
+.fga-worksheet .fw-suggestion{border-left:4px solid var(--fga-brown);padding:11px 15px;background:#FFF8EE;border-radius:5px}
+.fga-worksheet .fw-button-row{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}
+.fga-worksheet button{font:inherit;font-size:.90rem;font-weight:720;padding:11px 15px;border-radius:8px;border:1px solid var(--fga-olive);color:var(--fga-olive);background:#fff;cursor:pointer}
+.fga-worksheet button.fw-primary{background:var(--fga-olive);color:#fff}
+.fga-worksheet button:disabled{opacity:.48;cursor:not-allowed}
+.fga-worksheet .fw-error{color:#A13A27;font-size:.84rem;min-height:20px;margin:6px 0}
+.fga-worksheet .fw-hidden{display:none!important}
+.fga-worksheet .fw-print-only{display:none}
+.fga-worksheet a{color:#285E43}
+.fga-worksheet .fw-ref{font-size:.82rem;margin:13px 0 0}
+@media(max-width:680px){.fga-worksheet .fw-layout{grid-template-columns:1fr}.fga-worksheet .fw-grid{grid-template-columns:1fr 1fr}.fga-worksheet .fw-toolbar .fw-field{width:130px}}
+@media(max-width:380px){.fga-worksheet .fw-grid{grid-template-columns:1fr}}
+@media print{main>*:not(.fga-worksheet){display:none!important}main{margin:0!important;padding:0!important;max-width:none!important}body{background:#fff!important}.notice,header,footer{display:none!important}.fga-worksheet{break-inside:auto;border:0;padding:0;background:#fff}.fga-worksheet .fw-layout{grid-template-columns:1fr 1fr}.fga-worksheet .fw-no-print{display:none!important}.fga-worksheet .fw-print-only{display:block}.fga-worksheet .fw-panel,.fga-worksheet .fw-card{break-inside:avoid}.fga-worksheet .fw-print-fill{min-height:25px;border-bottom:1px solid #bbb}.fga-worksheet input,.fga-worksheet select{border:0;border-bottom:1px solid #aaa;border-radius:0;padding:4px;min-height:30px}.fga-worksheet h3{font-size:21px}}
+
+.fga-worksheet .fw-brand{background:#F6F3EB;border:1px solid #D9D6CB;padding:17px;border-radius:12px;margin-top:18px}
+.fga-worksheet .fw-brand-result{border-left:4px solid var(--fga-olive);padding:12px 16px;background:#fff;border-radius:6px}
+.fga-worksheet .fw-brand-result p{margin:5px 0 9px;font-size:.92rem}
+@media print{.fga-worksheet .fw-brand{display:none!important}}
+</style></head><body><h1>Free Boot Width Measurement Worksheet</h1><p>Research-only tool. No site integration or affiliate claims.</p><section class="fga-worksheet" data-fga-width-worksheet aria-labelledby="fw-title">
+ <div class="fw-eyebrow">Free interactive field worksheet • By FieldGearAtlas</div>
+ <h3 id="fw-title">Record Your Boot Fit Measurements</h3>
+ <p class="fw-note">Enter measurements for both feet and save or print a personal fit record. All calculations happen in your browser; nothing is sent to FieldGearAtlas. This is a measurement notebook, <strong>not a D/EE size predictor</strong>.</p>
+ <div class="fw-toolbar fw-no-print"><div class="fw-field"><label for="fw-unit">Measurement unit</label><select id="fw-unit" name="unit"><option value="mm">Millimeters (mm)</option><option value="in">Inches (in)</option></select></div><span class="fw-note">Switch units without retyping measurements.</span></div>
+ <div class="fw-layout">
+  <fieldset class="fw-panel" style="border:1px solid var(--fga-border)"><legend class="fw-legend">Left foot</legend><div class="fw-grid">
+   <div class="fw-field"><label for="fw-leftLength">Heel-to-toe length</label><input id="fw-leftLength" name="leftLength" type="number" inputmode="decimal" step="0.1" min="0" placeholder="e.g. 275"></div>
+   <div class="fw-field"><label for="fw-leftWidth">Ball-of-foot width</label><input id="fw-leftWidth" name="leftWidth" type="number" inputmode="decimal" step="0.1" min="0" placeholder="e.g. 105"></div></div>
+   <div class="fw-field"><label for="fw-leftArch">Heel-to-ball length (optional)</label><input id="fw-leftArch" name="leftArch" type="number" inputmode="decimal" step="0.1" min="0"></div>
+  </fieldset>
+  <fieldset class="fw-panel" style="border:1px solid var(--fga-border)"><legend class="fw-legend">Right foot</legend><div class="fw-grid">
+   <div class="fw-field"><label for="fw-rightLength">Heel-to-toe length</label><input id="fw-rightLength" name="rightLength" type="number" inputmode="decimal" step="0.1" min="0" placeholder="e.g. 278"></div>
+   <div class="fw-field"><label for="fw-rightWidth">Ball-of-foot width</label><input id="fw-rightWidth" name="rightWidth" type="number" inputmode="decimal" step="0.1" min="0" placeholder="e.g. 107"></div></div>
+   <div class="fw-field"><label for="fw-rightArch">Heel-to-ball length (optional)</label><input id="fw-rightArch" name="rightArch" type="number" inputmode="decimal" step="0.1" min="0"></div>
+  </fieldset>
+ </div>
+ <div class="fw-layout" style="margin-top:18px">
+  <div class="fw-panel"><h4>Purchase context (optional)</h4>
+   <div class="fw-field"><label for="fw-model">Brand / model to check</label><input id="fw-model" name="model" type="text" maxlength="100" placeholder="e.g. a specific boot model"></div>
+   <div class="fw-field"><label for="fw-size">US shoe size you already know</label><input id="fw-size" name="size" type="text" maxlength="30" placeholder="Not calculated here"></div>
+   <div class="fw-field"><label for="fw-socks">Planned socks</label><select id="fw-socks" name="socks"><option value="">Choose (optional)</option><option value="Lightweight">Lightweight</option><option value="Medium boot socks">Medium boot socks</option><option value="Heavy winter socks">Heavy winter socks</option><option value="Other / not sure">Other / not sure</option></select></div>
+  </div>
+  <div class="fw-panel"><h4>Where does your current boot feel wrong?</h4>
+   <div class="fw-field"><label for="fw-problem">Primary fit issue</label><select id="fw-problem" name="problem"><option value="">Select a symptom</option><option value="ball">Squeezing across the ball of the foot</option><option value="toes">Toes crowded or touching the front</option><option value="instep">Pressure across top of the foot</option><option value="heel">Heel slipping while walking</option><option value="none">None — researching fit in advance</option></select></div>
+   <p class="fw-note">A wider labeled size may not solve a toe-box, instep or heel problem. Only a manufacturer-specific chart and fitting can narrow your choices.</p>
+  </div>
+ </div>
+ <div class="fw-brand" aria-labelledby="fw-brand-title"><h4 id="fw-brand-title">Source-checked width code reference</h4><p class="fw-note">Select a brand or model example. This translates published width labels; it does not turn a foot measurement into a shoe size.</p><div class="fw-field"><label for="fw-brand">Brand / product reference</label><select id="fw-brand" name="brand"><option value="">Choose a verified example (optional)</option><option value="belleville">Belleville men's boots</option><option value="danner">Danner men's footwear</option><option value="underarmour">Under Armour Micro G Valsetz Wide (2E)</option></select></div><div id="fw-brand-result" class="fw-brand-result" hidden aria-live="polite"></div></div>
+ <div class="fw-card" id="fw-output" aria-live="polite" aria-atomic="true"><h4>My fit record</h4><p class="fw-note" id="fw-counter"></p><ul class="fw-summary" id="fw-summary"></ul><p id="fw-empty"></p><p class="fw-suggestion"><strong>Next check:</strong> <span id="fw-next"></span></p></div>
+ <p class="fw-error" id="fw-error" role="alert"></p>
+ <div class="fw-button-row fw-no-print"><button type="button" class="fw-primary" id="fw-print">Print / Save as PDF</button><button type="button" id="fw-download">Download text record</button><button type="button" id="fw-reset">Clear</button></div>
+ <p class="fw-note"><strong>No universal conversion:</strong> Your millimeters or inches cannot be reliably converted into a D/EE width or US shoe size across every boot brand. Use <a href="https://brannock.com/pages/instructions-fitting-tips" target="_blank" rel="noopener noreferrer">Brannock fitting guidance</a> for complete measurements and <a href="https://www.bellevilleboot.com/index.php?l=page_view&amp;p=sizing_guide" target="_blank" rel="noopener noreferrer">Belleville's official sizing guide</a> as an example of brand-specific labels.</p>
+ <div class="fw-print-only"><p>Bring this worksheet to a fitter or compare it with your intended brand/model's current chart.</p></div>
+</section>
+<script>/* Browser-only, zero external calls, no cookies, no localStorage. Original FGA code. */
+(function(){'use strict';
+const root=document.querySelector('[data-fga-width-worksheet]');if(!root)return;
+const $=s=>root.querySelector(s);
+const inputs=['leftLength','leftWidth','leftArch','rightLength','rightWidth','rightArch'];
+const factor=25.4;const initial={unit:'mm',model:'',size:'',socks:'',problem:'',brand:'',leftLength:'',leftWidth:'',leftArch:'',rightLength:'',rightWidth:'',rightArch:''};
+let unit='mm';
+const label={leftLength:'Left length',leftWidth:'Left ball width',leftArch:'Left heel-to-ball',rightLength:'Right length',rightWidth:'Right ball width',rightArch:'Right heel-to-ball'};
+const issueMap={ball:'Compare a genuine wider width option for the same boot model and inspect forefoot pressure.',toes:'Check length and toe-box geometry; width letters alone do not describe toe shape.',instep:'Check instep volume, last shape, tongue design and lacing before assuming you need EE.',heel:'Check heel hold and overall volume; increasing length could make slipping worse.',none:'Use a brand/model-specific size guide, then check fit while walking in the socks you will actually wear.'};
+function num(id){const s=$(`[name="${id}"]`).value.trim();if(s==='')return null;const n=Number(s);return Number.isFinite(n)?n:null;}
+function fmt(n){return Number(n.toFixed(unit==='mm'?1:2)).toString();}
+function pretty(n){return n===null?'—':fmt(n)+' '+unit;}
+function read(){return Object.fromEntries(inputs.map(id=>[id,num(id)]));}
+function validate(v){const errs=[];for(const id of inputs){const n=v[id];const input=$(`[name="${id}"]`);const raw=input.value.trim();const valid=raw===''||(n!==null&&n>0&&n<=(unit==='mm'?500:19.69));input.setAttribute('aria-invalid',valid?'false':'true');if(!valid)errs.push(label[id]);}return errs;}
+const brandRefs={
+ belleville:{scope:"Belleville men's boots",codes:'N = B; R = D; W = EE; XW = EEEE',warning:'Some widths are unavailable on some styles. This is a label reference, not a fitting result.',source:'https://www.bellevilleboot.com/index.php?l=page_view&p=sizing_guide'},
+ danner:{scope:"Danner men's footwear",codes:'Medium = D; Wide = EE; some styles include Narrow B and Extra Wide 3E/4E',warning:'Options differ by model; check Danner model selection.',source:'https://support.danner.com/hc/en-us/articles/360040554994-Does-Danner-offer-extended-sizing'},
+ underarmour:{scope:'Under Armour Micro G Valsetz Wide tactical boot',codes:'Wide = 2E on this specific model',warning:'Do not transfer this single-model label to all Under Armour footwear.',source:'https://www.underarmour.com/en-us/p/military_and_tactical_boots/ua_micro_g_valsetz_wide_2e_mens_tactical_boots/3023746.html'}
+};
+function renderBrand(){const selected=$('[name="brand"]').value,rec=brandRefs[selected],container=$('#fw-brand-result');container.replaceChildren();container.hidden=!rec;if(!rec)return;const strong=document.createElement('strong');strong.textContent=rec.scope;const codes=document.createElement('p');codes.textContent=rec.codes;const warning=document.createElement('p');warning.className='fw-note';warning.textContent=rec.warning;const link=document.createElement('a');link.href=rec.source;link.rel='noopener noreferrer';link.target='_blank';link.textContent='Verify with manufacturer ↗';container.append(strong,codes,warning,link)}
+function render(){const v=read(),errs=validate(v);renderBrand();const total=inputs.filter(id=>v[id]!==null).length;let summary='';
+if(errs.length){$('#fw-error').textContent='Check positive measurements and units for: '+errs.join(', ')+'.';$('#fw-output').classList.add('fw-hidden');return;}
+$('#fw-error').textContent='';$('#fw-output').classList.remove('fw-hidden');
+const ll=v.leftLength,rl=v.rightLength,lw=v.leftWidth,rw=v.rightWidth;
+const long=ll!==null&&rl!==null?(ll>rl?'Left foot':rl>ll?'Right foot':'Same recorded length'):'Record both lengths to compare';
+const wide=lw!==null&&rw!==null?(lw>rw?'Left foot':rw>lw?'Right foot':'Same recorded width'):'Record both ball widths to compare';
+summary=`<li><strong>Left:</strong> ${pretty(ll)} long × ${pretty(lw)} at ball; heel-to-ball ${pretty(v.leftArch)}</li><li><strong>Right:</strong> ${pretty(rl)} long × ${pretty(rw)} at ball; heel-to-ball ${pretty(v.rightArch)}</li><li><strong>Longer:</strong> ${long}${ll!==null&&rl!==null?' (difference '+pretty(Math.abs(ll-rl))+')':''}</li><li><strong>Wider at ball:</strong> ${wide}${lw!==null&&rw!==null?' (difference '+pretty(Math.abs(lw-rw))+')':''}</li>`;
+$('#fw-summary').innerHTML=summary;
+$('#fw-next').textContent=issueMap[$('[name="problem"]').value]||issueMap.none;
+$('#fw-counter').textContent=`${total} of 6 optional measurements recorded`;
+$('#fw-empty').textContent=total===0?'Fill in your measurements above to create your fit record.':'';
+}
+function serialize(){const vals=Object.fromEntries([...inputs,'model','size','socks','problem','brand'].map(id=>[id,$(`[name="${id}"]`).value.trim()]));const v=read();return `FieldGearAtlas — Boot Width Measurement Worksheet\nDate: ${new Date().toISOString().slice(0,10)}\nUnits: ${unit}\nBrand/model to check: ${vals.model||'Not specified'}\nUS size already worn / considering: ${vals.size||'Not specified'}\nPlanned socks: ${vals.socks||'Not specified'}\nMain fit issue: ${vals.problem||'Not specified'}\nSource-checked width reference: ${brandRefs[vals.brand]?brandRefs[vals.brand].scope+' — '+brandRefs[vals.brand].codes:'Not selected'}\n\nLEFT FOOT\nHeel-to-toe length: ${pretty(v.leftLength)}\nBall width: ${pretty(v.leftWidth)}\nHeel-to-ball length (optional): ${pretty(v.leftArch)}\n\nRIGHT FOOT\nHeel-to-toe length: ${pretty(v.rightLength)}\nBall width: ${pretty(v.rightWidth)}\nHeel-to-ball length (optional): ${pretty(v.rightArch)}\n\nNEXT CHECK\n${issueMap[vals.problem]||issueMap.none}\n\nThis tool records measurements only. It does not determine D, EE, a US shoe size or model-specific fit. Verify against manufacturer guidance and fitting in person where possible.\nSources: https://brannock.com/pages/instructions-fitting-tips ; https://www.bellevilleboot.com/index.php?l=page_view&p=sizing_guide`}
+root.addEventListener('input',render);root.addEventListener('change',render);
+$('#fw-unit').addEventListener('change',e=>{const next=e.target.value;if(next===unit)return;const mul=next==='in'?1/factor:factor;for(const id of inputs){const el=$(`[name="${id}"]`);const v=Number(el.value);if(el.value.trim()&&Number.isFinite(v)&&v>0)el.value=Number((v*mul).toFixed(next==='in'?3:1)).toString();}unit=next;for(const id of inputs){$(`[name="${id}"]`).step=next==='in'?'0.001':'0.1';}render()});
+$('#fw-download').addEventListener('click',()=>{if(validate(read()).length){render();return;}const blob=new Blob([serialize()],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='fieldgearatlas-boot-fit-record.txt';document.body.append(a);a.click();a.remove();URL.revokeObjectURL(url)});
+$('#fw-print').addEventListener('click',()=>{if(validate(read()).length){render();return;}window.print()});
+$('#fw-reset').addEventListener('click',()=>{for(const name in initial){const el=$(`[name="${name}"]`);if(el)el.value=initial[name]}unit='mm';$('#fw-unit').value='mm';render()});
+render();
+})();
+</script></body></html>
