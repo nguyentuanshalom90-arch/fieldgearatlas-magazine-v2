@@ -5,12 +5,12 @@
 - Independent repository created at `fieldgearatlas-magazine-v2`; legacy repository was not edited by this build.
 - Next.js App Router shell implemented for homepage, six category routes, and protected FGA-001 article preview.
 - 50 canonical article folders copied to private server-side staging; HOLD state preserved.
-- 106-slot source manifest copied. Bundled local WebP coverage is limited to supplied assets; full media coverage is not complete.
+- 106-slot source manifest copied. Local WebP coverage is now 41/106 slots: the bundled 12 hero/thumbnail slots plus all 29 Figma inline imports; full media coverage is not complete.
 - Seven approved mockups inspected. Article template remains PROPOSED / owner review pending.
 
 ## Next steps
 
-1. Obtain authenticated exports or separately supplied local binaries for the 94 missing manifest slots; preserve per-slot source, rights, dimensions, SHA-256 and owner authorization.
+1. Obtain authenticated exports or separately supplied local binaries for the 65 missing Adobe/category and article-hero manifest slots; preserve per-slot source, rights, dimensions, SHA-256 and owner authorization.
 2. Re-run the media audit and browser audit with the exact approved media, then compare each route against the seven approved mockups.
 3. Obtain owner acceptance for the seven visual comparisons and the proposed article template.
 4. Keep all 50 articles private/HOLD; do not deploy or publish.
@@ -19,14 +19,15 @@
 
 - Python verifier could not run because the host exposes only the Microsoft Store execution alias.
 - No owner-approved original logo was physically present in the ZIP; the verified logo derivative was copied read-only from the existing repository asset into this independent repo.
-- 94 of the 106 media slots do not have local binary files in the handoff; `MEDIA_FILE_COVERAGE_106` cannot be PASS without authenticated exports/rights review.
+- 65 of the 106 media slots still do not have local binary files; `MEDIA_FILE_COVERAGE_106` cannot be PASS without authenticated exports/rights review. The 29 Figma inline slots are technically imported but remain editorial/rights HOLD.
 
 ## Session checkpoint — 2026-10-29
 
-- `npm run typecheck` PASS; `npm test` PASS (3/3); staging audit PASS (50/50); media report PASS as source coverage only (106 manifest / 12 local slots); public leakage guard PASS; `npm run build` PASS on Next.js 16.4.3.
+- `npm run typecheck` PASS; `npm test` PASS (3/3); staging audit PASS (50/50); media report now records 106 manifest / 41 local slots; public leakage guard PASS; `npm run build` PASS on Next.js 16.4.3. Figma import workflow completed 29/29 technical imports with SHA-256 report; editorial/rights approval remains pending.
 - Browser audit ran on real V2 at `http://localhost:3004`: 8 routes × desktop/tablet/mobile/reference = 32 screenshots; final result 0 overflow and 0 broken images.
+- After importing the 29 Figma inline assets, the browser audit was repeated: 32 screenshots, 0 overflow and 0 broken images; the only prior Next image aspect warning was cleared with explicit image sizing CSS.
 - Fixed a sticky-header full-page capture artifact and long-form article tablet overflow; recaptured after fixes.
 - Required reports created: implementation, design parity, media rights, responsive/a11y, test log, independence/rollback, blockers.
 - Final gates: repository/pages/content/responsive/build PASS; visual parity/media local coverage/media rights/article approval remain HOLD as documented. No deploy, no publication, no V1 edits.
-- Recommended next work package: obtain authenticated 94-slot media exports + rights records, then owner review of screenshots and proposed article template.
-- Additional evidence: sampled direct Adobe Firefly source URLs returned HTTP 403 and sampled Figma source URLs returned HTTP 400; this confirms the missing-media gate requires authenticated export or owner-supplied files rather than URL scraping.
+- Recommended next work package: obtain authenticated 65-slot Adobe/category/article-hero exports + rights records, then owner review of screenshots and proposed article template.
+- Additional evidence: sampled direct Adobe Firefly source URLs returned HTTP 403 and sampled Figma source URLs initially returned HTTP 400; the supplied staging workflow then authenticated/imported all 29 Figma inline images. Adobe/category and article-hero export remains the active media blocker.

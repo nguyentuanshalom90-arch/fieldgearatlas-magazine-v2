@@ -6,3 +6,4 @@ out
 SCREENSHOTS/*.png
 *.log
 *.tsbuildinfo
+.media-staging/
