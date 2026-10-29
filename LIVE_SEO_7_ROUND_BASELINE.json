@@ -1,0 +1,130 @@
+{
+  "base": "https://fieldgearatlas.com",
+  "generatedAt": "2026-10-29T06:44:54.725Z",
+  "rounds": [
+    {
+      "round": 1,
+      "status": "PASS",
+      "failed": 0
+    },
+    {
+      "round": 2,
+      "status": "PASS",
+      "failed": 0
+    },
+    {
+      "round": 3,
+      "status": "PASS",
+      "failed": 0
+    },
+    {
+      "round": 4,
+      "status": "FAIL",
+      "failed": 1
+    },
+    {
+      "round": 5,
+      "status": "PASS",
+      "failed": 0
+    },
+    {
+      "round": 6,
+      "status": "FAIL",
+      "failed": 1
+    },
+    {
+      "round": 7,
+      "status": "FAIL",
+      "failed": 1
+    }
+  ],
+  "checks": [
+    {
+      "round": 1,
+      "status": "PASS",
+      "details": "root=200; robots=200; sitemap=200"
+    },
+    {
+      "round": 2,
+      "status": "PASS",
+      "details": "sitemap URLs checked=10; broken=0"
+    },
+    {
+      "round": 3,
+      "status": "PASS",
+      "details": "title=true; description=true"
+    },
+    {
+      "round": 4,
+      "status": "FAIL",
+      "details": "canonical=missing; robots=missing"
+    },
+    {
+      "round": 5,
+      "status": "PASS",
+      "details": "h1=1; images=1; bad-images=0"
+    },
+    {
+      "round": 6,
+      "status": "FAIL",
+      "details": "internal links checked=17; broken=1"
+    },
+    {
+      "round": 7,
+      "status": "FAIL",
+      "details": "jsonld=0; ga=false; apex=301->https://fieldgearatlas.com/; www=301->https://fieldgearatlas.com/; overflow=false"
+    }
+  ],
+  "urlResults": [
+    {
+      "url": "https://fieldgearatlas.com/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://fieldgearatlas.com/about/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://fieldgearatlas.com/editorial-policy/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://fieldgearatlas.com/methodology/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://fieldgearatlas.com/data-sources/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://fieldgearatlas.com/affiliate-disclosure/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://fieldgearatlas.com/privacy/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://fieldgearatlas.com/terms/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://fieldgearatlas.com/accessibility/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://fieldgearatlas.com/contact/",
+      "status": 200,
+      "ok": true
+    }
+  ]
+}
