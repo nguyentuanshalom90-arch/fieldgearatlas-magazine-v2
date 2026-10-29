@@ -51,3 +51,9 @@
 - Tracking audit: `npm run audit:tracking` against the VPS tunnel passed 7/7 for the dedicated ID, project name, page view, interaction click, scroll depth, form start/submit, and route-change page view. Report: `TRACKING_7_ROUND_REPORT.json`.
 - Remaining external holds: switch/canonical production traffic requires owner decision and a full live DB/media backup plan; Search Console DNS TXT verification still requires Tenten DNS access. Do not claim public production tracking or Search Console verification until those are completed.
 - Safety preparation completed: VPS backup set `/root/fieldgearatlas-deploy-backups/20261029T083116Z` contains the live MySQL dump, PostgreSQL cluster dump, `public_html`, PM2 ecosystem, and OpenLiteSpeed config; SHA-256 checksums were generated. No separate persistent uploads/media directory was found under `/home/fieldgearatlas.com`; current V1 release path remains intact for rollback.
+
+## Resume checkpoint — 2026-10-29
+
+- Revalidated from the F: repository root after temporary C: build cleanup: `npm run typecheck`, `npm test` (3/3), and `npm run build` all PASS.
+- Re-ran local SEO and dedicated tracking audits from the F: preview at `http://localhost:3004`: SEO 7/7 and tracking 7/7 PASS. Responsive audit was started but stopped after an extended no-output run; prior verified 80-width evidence remains unchanged.
+- No source or V1 files were modified; no production traffic switch was made. External holds remain owner decision for canonical traffic switch/backup approval and Tenten DNS access for Search Console TXT verification.
