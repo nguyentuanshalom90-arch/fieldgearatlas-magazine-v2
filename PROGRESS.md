@@ -40,3 +40,12 @@
 - Live baseline evidence: `npm run audit:live-seo` against `https://fieldgearatlas.com` passed rounds 1, 2, 3, and 5; rounds 4/6/7 currently fail because the live home lacks canonical/robots meta, one internal link (`/boots/tactical/`) returns 404, and the live HTML has no JSON-LD or GA tracking. This is baseline evidence for the existing production release, not a claim about V2.
 - Post-tracking source validation: because F: had no build space, the repository was copied to a temporary C: build directory; `npm ci`, `typecheck`, `next build`, and the built-server `npm run audit:seo` all passed 7/7 rounds. No deployment or traffic switch was performed.
 - GA4 property created in the authorized Google account: `FieldGearAtlas Magazine V2`; web stream `FieldGearAtlas Magazine V2 Web`; hostname `https://fieldgearatlas.com`; Measurement ID `G-G7659QXX6M`; Enhanced Measurement enabled. Production tracking is not live yet because V2 has not been deployed. Built-server verification confirmed the GA script URL, Measurement ID, page_view request, and `interaction_click` event queued with project name `fieldgearatlas_magazine_v2`.
+
+## Deployment checkpoint — 2026-10-29
+
+- Created independent public GitHub repository: `https://github.com/nguyentuanshalom90-arch/fieldgearatlas-magazine-v2`; V2 `master` is pushed to GitHub `main`. Existing V1 repository `fieldgearatlas` was not modified.
+- Uploaded release artifacts to VPS with SHA-256 verification and deployed V2 side-by-side at `/home/fieldgearatlas.com/app/releases/20261029-fga-v2-r4`.
+- PM2 process `fieldgearatlas-magazine-v2` is online on `127.0.0.1:3102`; existing V1 PM2 process on port 3101 was left unchanged. No public traffic switch was made.
+- VPS smoke checks: `/`, `/topics`, `/robots.txt`, `/sitemap.xml` all returned HTTP 200; HTML contains `G-G7659QXX6M`; PM2 reports online with zero restarts for the current release.
+- Side-by-side live browser audit through an SSH tunnel: 36 screenshots across desktop/tablet/mobile/reference, 0 horizontal overflow, 0 broken images. Seven-round V2 staging audit passed 7/7.
+- Remaining external holds: switch/canonical production traffic requires owner decision and a full live DB/media backup plan; Search Console DNS TXT verification still requires Tenten DNS access. Do not claim public production tracking or Search Console verification until those are completed.
