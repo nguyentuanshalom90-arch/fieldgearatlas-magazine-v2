@@ -32,3 +32,4 @@
 - Final gates: repository/pages/content/responsive/build PASS; local media coverage 106/106 PASS technically; visual parity/media rights/article approval remain HOLD as documented. No deploy, no publication, no V1 edits.
 - Recommended next work package: owner review of the final screenshot set, proposed eighth article template, and media release authorization; keep private staging unchanged until explicit publication approval.
 - Additional evidence: authenticated Adobe preview exported all 65 Adobe slots; Figma workflow imported all 29 inline slots; `MEDIA_IMPORT_REPORT_106.csv` records 106/106 local binaries. Direct source URL access remains irrelevant to the local verified copies.
+- Article preview gutter refinement: added responsive 28px desktop / 24px tablet / 14px mobile side padding so the proposed article template no longer runs visually flush to the viewport; verified in browser preview and committed as `b8926ef`.
