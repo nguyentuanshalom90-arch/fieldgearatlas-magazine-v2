@@ -1,0 +1,120 @@
+{
+  "base": "http://127.0.0.1:33102",
+  "generatedAt": "2026-10-29T08:27:27.379Z",
+  "rounds": [
+    {
+      "round": 1,
+      "status": "PASS",
+      "failed": 0
+    },
+    {
+      "round": 2,
+      "status": "PASS",
+      "failed": 0
+    },
+    {
+      "round": 3,
+      "status": "PASS",
+      "failed": 0
+    },
+    {
+      "round": 4,
+      "status": "PASS",
+      "failed": 0
+    },
+    {
+      "round": 5,
+      "status": "PASS",
+      "failed": 0
+    },
+    {
+      "round": 6,
+      "status": "PASS",
+      "failed": 0
+    },
+    {
+      "round": 7,
+      "status": "PASS",
+      "failed": 0
+    }
+  ],
+  "checks": [
+    {
+      "round": 1,
+      "status": "PASS",
+      "details": "root=200; robots=200; sitemap=200"
+    },
+    {
+      "round": 2,
+      "status": "PASS",
+      "details": "sitemap URLs checked=8; broken=0"
+    },
+    {
+      "round": 3,
+      "status": "PASS",
+      "details": "title=true; description=true"
+    },
+    {
+      "round": 4,
+      "status": "PASS",
+      "details": "canonical=https://fieldgearatlas.com/; robots=default-indexable"
+    },
+    {
+      "round": 5,
+      "status": "PASS",
+      "details": "h1=1; images=32; bad-images=0"
+    },
+    {
+      "round": 6,
+      "status": "PASS",
+      "details": "internal links checked=8; broken=0"
+    },
+    {
+      "round": 7,
+      "status": "PASS",
+      "details": "jsonld=1; ga=true; apex=skipped-staging; www=skipped-staging; overflow=false"
+    }
+  ],
+  "urlResults": [
+    {
+      "url": "http://127.0.0.1:33102/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "http://127.0.0.1:33102/topics",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "http://127.0.0.1:33102/topics/boots",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "http://127.0.0.1:33102/topics/rucking",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "http://127.0.0.1:33102/topics/packs",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "http://127.0.0.1:33102/topics/clothing",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "http://127.0.0.1:33102/topics/field-sleep",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "http://127.0.0.1:33102/topics/surplus",
+      "status": 200,
+      "ok": true
+    }
+  ]
+}

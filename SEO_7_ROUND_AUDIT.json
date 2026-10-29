@@ -1,5 +1,5 @@
 {
-  "base": "http://localhost:3004",
+  "base": "http://127.0.0.1:33102",
   "routes": [
     "/",
     "/topics",
@@ -341,5 +341,5 @@
       "details": "/topics/surplus overflow=false jsonld=1"
     }
   ],
-  "generatedAt": "2026-10-29T06:35:08.338Z"
+  "generatedAt": "2026-10-29T08:28:18.612Z"
 }
