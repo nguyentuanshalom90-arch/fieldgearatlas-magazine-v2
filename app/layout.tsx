@@ -17,5 +17,5 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const siteUrl=getSiteUrl();
   const structuredData={"@context":"https://schema.org","@type":"WebSite",name:"FieldGearAtlas Magazine",url:siteUrl,description:"Independent field gear research, fit guidance, and practical outdoor knowledge."};
-  return <html lang="en"><body><GoogleAnalytics /><MagazineHeader />{children}<MagazineFooter /><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}} /></body></html>;
+  return <html lang="en"><head><meta name="robots" content="index,follow" /></head><body><GoogleAnalytics /><MagazineHeader />{children}<MagazineFooter /><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}} /></body></html>;
 }
