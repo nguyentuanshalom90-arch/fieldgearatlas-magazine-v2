@@ -1,0 +1,43 @@
+{
+  "base": "http://127.0.0.1:33102",
+  "expectedId": "G-G7659QXX6M",
+  "project": "fieldgearatlas_magazine_v2",
+  "generatedAt": "2026-10-29T08:26:23.784Z",
+  "rounds": [
+    {
+      "round": 1,
+      "status": "PASS",
+      "details": "measurement_id=G-G7659QXX6M"
+    },
+    {
+      "round": 2,
+      "status": "PASS",
+      "details": "project_name=fieldgearatlas_magazine_v2"
+    },
+    {
+      "round": 3,
+      "status": "PASS",
+      "details": "page_view"
+    },
+    {
+      "round": 4,
+      "status": "PASS",
+      "details": "interaction_click"
+    },
+    {
+      "round": 5,
+      "status": "PASS",
+      "details": "scroll_depth"
+    },
+    {
+      "round": 6,
+      "status": "PASS",
+      "details": "form_start+form_submit"
+    },
+    {
+      "round": 7,
+      "status": "PASS",
+      "details": "route=/topics/boots; route_page_view=true"
+    }
+  ]
+}
