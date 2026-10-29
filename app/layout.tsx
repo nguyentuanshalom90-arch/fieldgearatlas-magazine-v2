@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: { default: "FieldGearAtlas Magazine", template: "%s | FieldGearAtlas" },
   description: "Independent field gear research, fit guidance, and practical outdoor knowledge.",
   alternates: { canonical: "/" },
+  robots: { index: true, follow: true },
   ...(process.env.NEXT_PUBLIC_GSC_VERIFICATION ? {verification:{google:process.env.NEXT_PUBLIC_GSC_VERIFICATION}} : {}),
   icons: { icon: "/brand/fieldgearatlas-icon.png" },
 };
