@@ -2,6 +2,9 @@ import { notFound } from "next/navigation";
 import fs from "node:fs";
 import path from "node:path";
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata:Metadata={title:"Private article preview",robots:{index:false,follow:false,noarchive:true}};
 
 function renderMarkdown(source:string){
   const lines=source.split(/\r?\n/);

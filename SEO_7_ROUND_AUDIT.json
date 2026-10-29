@@ -1,0 +1,345 @@
+{
+  "base": "http://localhost:3004",
+  "routes": [
+    "/",
+    "/topics",
+    "/topics/boots",
+    "/topics/rucking",
+    "/topics/packs",
+    "/topics/clothing",
+    "/topics/field-sleep",
+    "/topics/surplus"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "status": "PASS",
+      "checks": 9,
+      "failed": 0
+    },
+    {
+      "round": 2,
+      "status": "PASS",
+      "checks": 8,
+      "failed": 0
+    },
+    {
+      "round": 3,
+      "status": "PASS",
+      "checks": 8,
+      "failed": 0
+    },
+    {
+      "round": 4,
+      "status": "PASS",
+      "checks": 8,
+      "failed": 0
+    },
+    {
+      "round": 5,
+      "status": "PASS",
+      "checks": 8,
+      "failed": 0
+    },
+    {
+      "round": 6,
+      "status": "PASS",
+      "checks": 8,
+      "failed": 0
+    },
+    {
+      "round": 7,
+      "status": "PASS",
+      "checks": 8,
+      "failed": 0
+    }
+  ],
+  "results": [
+    {
+      "round": 1,
+      "status": "PASS",
+      "details": "/ HTTP 200"
+    },
+    {
+      "round": 1,
+      "status": "PASS",
+      "details": "/topics HTTP 200"
+    },
+    {
+      "round": 1,
+      "status": "PASS",
+      "details": "/topics/boots HTTP 200"
+    },
+    {
+      "round": 1,
+      "status": "PASS",
+      "details": "/topics/rucking HTTP 200"
+    },
+    {
+      "round": 1,
+      "status": "PASS",
+      "details": "/topics/packs HTTP 200"
+    },
+    {
+      "round": 1,
+      "status": "PASS",
+      "details": "/topics/clothing HTTP 200"
+    },
+    {
+      "round": 1,
+      "status": "PASS",
+      "details": "/topics/field-sleep HTTP 200"
+    },
+    {
+      "round": 1,
+      "status": "PASS",
+      "details": "/topics/surplus HTTP 200"
+    },
+    {
+      "round": 1,
+      "status": "PASS",
+      "details": "robots 200; sitemap 200"
+    },
+    {
+      "round": 2,
+      "status": "PASS",
+      "details": "/ title=true description=true canonical=true"
+    },
+    {
+      "round": 3,
+      "status": "PASS",
+      "details": "/ h1=1"
+    },
+    {
+      "round": 4,
+      "status": "PASS",
+      "details": "/ invalid/private links=0"
+    },
+    {
+      "round": 5,
+      "status": "PASS",
+      "details": "/ images=32 bad-alt-or-src=0"
+    },
+    {
+      "round": 6,
+      "status": "PASS",
+      "details": "/ internal links checked=8 broken=0"
+    },
+    {
+      "round": 7,
+      "status": "PASS",
+      "details": "/ overflow=false jsonld=1"
+    },
+    {
+      "round": 2,
+      "status": "PASS",
+      "details": "/topics title=true description=true canonical=true"
+    },
+    {
+      "round": 3,
+      "status": "PASS",
+      "details": "/topics h1=1"
+    },
+    {
+      "round": 4,
+      "status": "PASS",
+      "details": "/topics invalid/private links=0"
+    },
+    {
+      "round": 5,
+      "status": "PASS",
+      "details": "/topics images=8 bad-alt-or-src=0"
+    },
+    {
+      "round": 6,
+      "status": "PASS",
+      "details": "/topics internal links checked=7 broken=0"
+    },
+    {
+      "round": 7,
+      "status": "PASS",
+      "details": "/topics overflow=false jsonld=1"
+    },
+    {
+      "round": 2,
+      "status": "PASS",
+      "details": "/topics/boots title=true description=true canonical=true"
+    },
+    {
+      "round": 3,
+      "status": "PASS",
+      "details": "/topics/boots h1=1"
+    },
+    {
+      "round": 4,
+      "status": "PASS",
+      "details": "/topics/boots invalid/private links=0"
+    },
+    {
+      "round": 5,
+      "status": "PASS",
+      "details": "/topics/boots images=26 bad-alt-or-src=0"
+    },
+    {
+      "round": 6,
+      "status": "PASS",
+      "details": "/topics/boots internal links checked=8 broken=0"
+    },
+    {
+      "round": 7,
+      "status": "PASS",
+      "details": "/topics/boots overflow=false jsonld=1"
+    },
+    {
+      "round": 2,
+      "status": "PASS",
+      "details": "/topics/rucking title=true description=true canonical=true"
+    },
+    {
+      "round": 3,
+      "status": "PASS",
+      "details": "/topics/rucking h1=1"
+    },
+    {
+      "round": 4,
+      "status": "PASS",
+      "details": "/topics/rucking invalid/private links=0"
+    },
+    {
+      "round": 5,
+      "status": "PASS",
+      "details": "/topics/rucking images=26 bad-alt-or-src=0"
+    },
+    {
+      "round": 6,
+      "status": "PASS",
+      "details": "/topics/rucking internal links checked=8 broken=0"
+    },
+    {
+      "round": 7,
+      "status": "PASS",
+      "details": "/topics/rucking overflow=false jsonld=1"
+    },
+    {
+      "round": 2,
+      "status": "PASS",
+      "details": "/topics/packs title=true description=true canonical=true"
+    },
+    {
+      "round": 3,
+      "status": "PASS",
+      "details": "/topics/packs h1=1"
+    },
+    {
+      "round": 4,
+      "status": "PASS",
+      "details": "/topics/packs invalid/private links=0"
+    },
+    {
+      "round": 5,
+      "status": "PASS",
+      "details": "/topics/packs images=26 bad-alt-or-src=0"
+    },
+    {
+      "round": 6,
+      "status": "PASS",
+      "details": "/topics/packs internal links checked=8 broken=0"
+    },
+    {
+      "round": 7,
+      "status": "PASS",
+      "details": "/topics/packs overflow=false jsonld=1"
+    },
+    {
+      "round": 2,
+      "status": "PASS",
+      "details": "/topics/clothing title=true description=true canonical=true"
+    },
+    {
+      "round": 3,
+      "status": "PASS",
+      "details": "/topics/clothing h1=1"
+    },
+    {
+      "round": 4,
+      "status": "PASS",
+      "details": "/topics/clothing invalid/private links=0"
+    },
+    {
+      "round": 5,
+      "status": "PASS",
+      "details": "/topics/clothing images=28 bad-alt-or-src=0"
+    },
+    {
+      "round": 6,
+      "status": "PASS",
+      "details": "/topics/clothing internal links checked=8 broken=0"
+    },
+    {
+      "round": 7,
+      "status": "PASS",
+      "details": "/topics/clothing overflow=false jsonld=1"
+    },
+    {
+      "round": 2,
+      "status": "PASS",
+      "details": "/topics/field-sleep title=true description=true canonical=true"
+    },
+    {
+      "round": 3,
+      "status": "PASS",
+      "details": "/topics/field-sleep h1=1"
+    },
+    {
+      "round": 4,
+      "status": "PASS",
+      "details": "/topics/field-sleep invalid/private links=0"
+    },
+    {
+      "round": 5,
+      "status": "PASS",
+      "details": "/topics/field-sleep images=24 bad-alt-or-src=0"
+    },
+    {
+      "round": 6,
+      "status": "PASS",
+      "details": "/topics/field-sleep internal links checked=8 broken=0"
+    },
+    {
+      "round": 7,
+      "status": "PASS",
+      "details": "/topics/field-sleep overflow=false jsonld=1"
+    },
+    {
+      "round": 2,
+      "status": "PASS",
+      "details": "/topics/surplus title=true description=true canonical=true"
+    },
+    {
+      "round": 3,
+      "status": "PASS",
+      "details": "/topics/surplus h1=1"
+    },
+    {
+      "round": 4,
+      "status": "PASS",
+      "details": "/topics/surplus invalid/private links=0"
+    },
+    {
+      "round": 5,
+      "status": "PASS",
+      "details": "/topics/surplus images=26 bad-alt-or-src=0"
+    },
+    {
+      "round": 6,
+      "status": "PASS",
+      "details": "/topics/surplus internal links checked=8 broken=0"
+    },
+    {
+      "round": 7,
+      "status": "PASS",
+      "details": "/topics/surplus overflow=false jsonld=1"
+    }
+  ],
+  "generatedAt": "2026-10-29T06:32:07.897Z"
+}

@@ -12,6 +12,17 @@
   },
   {
     "size": "desktop",
+    "route": "/topics",
+    "width": 1440,
+    "height": 1212,
+    "viewport": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "broken": [],
+    "title": "Topics | FieldGearAtlas"
+  },
+  {
+    "size": "desktop",
     "route": "/topics/boots",
     "width": 1440,
     "height": 2106,
@@ -19,7 +30,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Boots & Fit | FieldGearAtlas"
   },
   {
     "size": "desktop",
@@ -30,7 +41,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Rucking & Training | FieldGearAtlas"
   },
   {
     "size": "desktop",
@@ -41,7 +52,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Packs & Carry | FieldGearAtlas"
   },
   {
     "size": "desktop",
@@ -52,7 +63,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Clothing & Protection | FieldGearAtlas"
   },
   {
     "size": "desktop",
@@ -63,7 +74,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Field & Sleep | FieldGearAtlas"
   },
   {
     "size": "desktop",
@@ -74,18 +85,18 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Surplus & Heritage | FieldGearAtlas"
   },
   {
     "size": "desktop",
     "route": "/preview/guides/FGA-001?preview=1&key=local-v2",
     "width": 1440,
-    "height": 10812,
+    "height": 11044,
     "viewport": 1440,
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Private article preview | FieldGearAtlas"
   },
   {
     "size": "tablet",
@@ -100,6 +111,17 @@
   },
   {
     "size": "tablet",
+    "route": "/topics",
+    "width": 768,
+    "height": 2000,
+    "viewport": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "broken": [],
+    "title": "Topics | FieldGearAtlas"
+  },
+  {
+    "size": "tablet",
     "route": "/topics/boots",
     "width": 768,
     "height": 4555,
@@ -107,7 +129,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Boots & Fit | FieldGearAtlas"
   },
   {
     "size": "tablet",
@@ -118,7 +140,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Rucking & Training | FieldGearAtlas"
   },
   {
     "size": "tablet",
@@ -129,7 +151,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Packs & Carry | FieldGearAtlas"
   },
   {
     "size": "tablet",
@@ -140,7 +162,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Clothing & Protection | FieldGearAtlas"
   },
   {
     "size": "tablet",
@@ -151,7 +173,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Field & Sleep | FieldGearAtlas"
   },
   {
     "size": "tablet",
@@ -162,7 +184,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Surplus & Heritage | FieldGearAtlas"
   },
   {
     "size": "tablet",
@@ -173,7 +195,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Private article preview | FieldGearAtlas"
   },
   {
     "size": "mobile",
@@ -188,6 +210,17 @@
   },
   {
     "size": "mobile",
+    "route": "/topics",
+    "width": 390,
+    "height": 3139,
+    "viewport": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "broken": [],
+    "title": "Topics | FieldGearAtlas"
+  },
+  {
+    "size": "mobile",
     "route": "/topics/boots",
     "width": 390,
     "height": 4557,
@@ -195,7 +228,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Boots & Fit | FieldGearAtlas"
   },
   {
     "size": "mobile",
@@ -206,7 +239,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Rucking & Training | FieldGearAtlas"
   },
   {
     "size": "mobile",
@@ -217,7 +250,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Packs & Carry | FieldGearAtlas"
   },
   {
     "size": "mobile",
@@ -228,7 +261,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Clothing & Protection | FieldGearAtlas"
   },
   {
     "size": "mobile",
@@ -239,7 +272,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Field & Sleep | FieldGearAtlas"
   },
   {
     "size": "mobile",
@@ -250,7 +283,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Surplus & Heritage | FieldGearAtlas"
   },
   {
     "size": "mobile",
@@ -261,7 +294,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Private article preview | FieldGearAtlas"
   },
   {
     "size": "reference",
@@ -276,6 +309,17 @@
   },
   {
     "size": "reference",
+    "route": "/topics",
+    "width": 1122,
+    "height": 1402,
+    "viewport": 1122,
+    "overflow": false,
+    "overflowElements": [],
+    "broken": [],
+    "title": "Topics | FieldGearAtlas"
+  },
+  {
+    "size": "reference",
     "route": "/topics/boots",
     "width": 1122,
     "height": 2067,
@@ -283,7 +327,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Boots & Fit | FieldGearAtlas"
   },
   {
     "size": "reference",
@@ -294,7 +338,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Rucking & Training | FieldGearAtlas"
   },
   {
     "size": "reference",
@@ -305,7 +349,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Packs & Carry | FieldGearAtlas"
   },
   {
     "size": "reference",
@@ -316,7 +360,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Clothing & Protection | FieldGearAtlas"
   },
   {
     "size": "reference",
@@ -327,7 +371,7 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Field & Sleep | FieldGearAtlas"
   },
   {
     "size": "reference",
@@ -338,17 +382,17 @@
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Surplus & Heritage | FieldGearAtlas"
   },
   {
     "size": "reference",
     "route": "/preview/guides/FGA-001?preview=1&key=local-v2",
     "width": 1122,
-    "height": 10824,
+    "height": 11056,
     "viewport": 1122,
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "FieldGearAtlas Magazine"
+    "title": "Private article preview | FieldGearAtlas"
   }
 ]
