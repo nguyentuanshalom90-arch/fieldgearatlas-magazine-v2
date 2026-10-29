@@ -24,3 +24,6 @@
 .category-intro .story-card{min-height:390px}.category-support-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.category-support-grid .story-card{min-height:250px}.category-support-grid .story-card:first-child{grid-column:auto;min-height:250px}
 @media(max-width:900px){.category-support-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.category-support-grid{grid-template-columns:1fr}.category-intro .story-card{min-height:300px}}
+.article-page{box-sizing:border-box;padding-left:28px;padding-right:28px}
+@media(max-width:900px){.article-page{padding-left:24px;padding-right:24px}}
+@media(max-width:650px){.article-page{padding-left:14px;padding-right:14px}}
