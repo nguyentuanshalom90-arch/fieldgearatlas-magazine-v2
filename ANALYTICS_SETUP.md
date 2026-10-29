@@ -8,11 +8,11 @@ Set these values in the persistent production environment, not in the release so
 
 ```text
 NEXT_PUBLIC_SITE_URL=https://fieldgearatlas.com
-NEXT_PUBLIC_GA_MEASUREMENT_ID=G-<FieldGearAtlas-only-stream-id>
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-G7659QXX6M
 NEXT_PUBLIC_GSC_VERIFICATION=<FieldGearAtlas-only-Search-Console-token>
 ```
 
-The GA4 client uses the project name `fieldgearatlas_magazine_v2` on every event. It records page views, interaction clicks, outbound clicks, file downloads, form starts, form submits, scroll-depth milestones, and route changes. The current Google Analytics property visible in the owner's browser is BIMI AGRI and must not be used for this project.
+The dedicated GA4 property is `FieldGearAtlas Magazine V2`, with web stream `FieldGearAtlas Magazine V2 Web` and Measurement ID `G-G7659QXX6M`. The GA4 client uses the project name `fieldgearatlas_magazine_v2` on every event. It records page views, interaction clicks, outbound clicks, file downloads, form starts, form submits, scroll-depth milestones, and route changes. The separate BIMI AGRI property was not reused.
 
 After the dedicated GA4 web stream and Search Console property exist, verify:
 
