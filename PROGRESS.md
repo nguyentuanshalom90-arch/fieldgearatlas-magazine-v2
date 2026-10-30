@@ -7,11 +7,12 @@
 - 50 canonical article folders copied to private server-side staging; HOLD state preserved.
 - 106-slot source manifest copied. Local WebP coverage is now 106/106 slots: all 29 Figma inline imports and all 65 authenticated Adobe exports are present and hashable; release rights remain pending.
 - Seven approved mockups inspected. Article template remains PROPOSED / owner review pending.
+- Canonical production traffic now serves V2; GA4 tracking and Search Console ownership are verified.
 
 ## Next steps
 
-1. Obtain owner/editorial approval for the 106 locally verified assets, preserve the per-slot rights record, and keep production release unauthorized until that decision is recorded.
-2. Owner-review the updated 32 screenshot set against the seven approved mockups and the separately proposed article template.
+1. Obtain owner/editorial approval for the 106 locally verified assets and record the per-slot media release decision.
+2. Owner-review the updated screenshot set against the seven approved mockups and separately proposed article template.
 3. Record owner acceptance or requested revisions for visual parity, the proposed article template, and media release rights.
 4. Keep all 50 articles private/HOLD; the deployed release excludes `private-content` and does not publish the 50 articles.
 
@@ -67,7 +68,7 @@
 - Post-switch live SEO audit: 7/7 PASS. Post-switch live GA/tracking audit: 7/7 PASS for `G-G7659QXX6M`, project `fieldgearatlas_magazine_v2`, page view, interaction click, scroll depth, form events, and route-change page view.
 - Post-switch browser capture: 36 screenshots across desktop/tablet/mobile/reference, 0 overflow, 0 broken images. The private article preview is intentionally not public and returned the expected 404 without the private preview gate.
 - Canonical checks PASS: HTTP apex, HTTP www, and HTTPS www redirect to `https://fieldgearatlas.com`; homepage, `/topics`, `/topics/boots`, `robots.txt`, and `sitemap.xml` return HTTP 200; PM2 V1/V2 online; OpenLiteSpeed active; no new service errors.
-- Search Console TXT verification remains pending because Tenten DNS access has not been completed. Private 50-article staging remains HOLD and no articles were published.
+- Search Console ownership is verified; Google Performance and Indexing data are processing. Private 50-article staging remains HOLD and no articles were published.
 
 ## Search Console verification checkpoint — 2026-10-30
 
