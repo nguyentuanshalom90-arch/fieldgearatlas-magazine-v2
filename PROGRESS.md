@@ -68,3 +68,10 @@
 - Post-switch browser capture: 36 screenshots across desktop/tablet/mobile/reference, 0 overflow, 0 broken images. The private article preview is intentionally not public and returned the expected 404 without the private preview gate.
 - Canonical checks PASS: HTTP apex, HTTP www, and HTTPS www redirect to `https://fieldgearatlas.com`; homepage, `/topics`, `/topics/boots`, `robots.txt`, and `sitemap.xml` return HTTP 200; PM2 V1/V2 online; OpenLiteSpeed active; no new service errors.
 - Search Console TXT verification remains pending because Tenten DNS access has not been completed. Private 50-article staging remains HOLD and no articles were published.
+
+## Search Console verification checkpoint — 2026-10-30
+
+- Owner-provided Tenten access was used through Chrome; the Search Console TXT record was added at the authoritative Tenten DNS account for `fieldgearatlas.com`.
+- Public DNS lookup confirmed the TXT record, and Google Search Console displayed `Ownership verified` using the Domain name provider method.
+- Search Console property Overview is now accessible for `fieldgearatlas.com`; Google reports that Performance and Indexing data are processing and may require a day or more.
+- Credentials and the verification token were not written to source, reports, or project state.
