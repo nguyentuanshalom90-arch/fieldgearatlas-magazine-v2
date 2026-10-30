@@ -91,12 +91,12 @@
     "size": "desktop",
     "route": "/preview/guides/FGA-001?preview=1&key=local-v2",
     "width": 1440,
-    "height": 11044,
+    "height": 1168,
     "viewport": 1440,
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "Private article preview | FieldGearAtlas"
+    "title": "404: This page could not be found."
   },
   {
     "size": "tablet",
@@ -190,12 +190,12 @@
     "size": "tablet",
     "route": "/preview/guides/FGA-001?preview=1&key=local-v2",
     "width": 768,
-    "height": 12664,
+    "height": 1348,
     "viewport": 768,
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "Private article preview | FieldGearAtlas"
+    "title": "404: This page could not be found."
   },
   {
     "size": "mobile",
@@ -289,12 +289,12 @@
     "size": "mobile",
     "route": "/preview/guides/FGA-001?preview=1&key=local-v2",
     "width": 390,
-    "height": 18227,
+    "height": 1242,
     "viewport": 390,
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "Private article preview | FieldGearAtlas"
+    "title": "404: This page could not be found."
   },
   {
     "size": "reference",
@@ -388,11 +388,11 @@
     "size": "reference",
     "route": "/preview/guides/FGA-001?preview=1&key=local-v2",
     "width": 1122,
-    "height": 11056,
+    "height": 1682,
     "viewport": 1122,
     "overflow": false,
     "overflowElements": [],
     "broken": [],
-    "title": "Private article preview | FieldGearAtlas"
+    "title": "404: This page could not be found."
   }
 ]

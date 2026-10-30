@@ -1,6 +1,6 @@
 {
   "base": "https://fieldgearatlas.com",
-  "generatedAt": "2026-10-29T06:44:54.725Z",
+  "generatedAt": "2026-10-30T06:57:44.310Z",
   "rounds": [
     {
       "round": 1,
@@ -19,8 +19,8 @@
     },
     {
       "round": 4,
-      "status": "FAIL",
-      "failed": 1
+      "status": "PASS",
+      "failed": 0
     },
     {
       "round": 5,
@@ -29,13 +29,13 @@
     },
     {
       "round": 6,
-      "status": "FAIL",
-      "failed": 1
+      "status": "PASS",
+      "failed": 0
     },
     {
       "round": 7,
-      "status": "FAIL",
-      "failed": 1
+      "status": "PASS",
+      "failed": 0
     }
   ],
   "checks": [
@@ -47,7 +47,7 @@
     {
       "round": 2,
       "status": "PASS",
-      "details": "sitemap URLs checked=10; broken=0"
+      "details": "sitemap URLs checked=8; broken=0"
     },
     {
       "round": 3,
@@ -56,23 +56,23 @@
     },
     {
       "round": 4,
-      "status": "FAIL",
-      "details": "canonical=missing; robots=missing"
+      "status": "PASS",
+      "details": "canonical=https://fieldgearatlas.com/; robots=default-indexable"
     },
     {
       "round": 5,
       "status": "PASS",
-      "details": "h1=1; images=1; bad-images=0"
+      "details": "h1=1; images=32; bad-images=0"
     },
     {
       "round": 6,
-      "status": "FAIL",
-      "details": "internal links checked=17; broken=1"
+      "status": "PASS",
+      "details": "internal links checked=8; broken=0"
     },
     {
       "round": 7,
-      "status": "FAIL",
-      "details": "jsonld=0; ga=false; apex=301->https://fieldgearatlas.com/; www=301->https://fieldgearatlas.com/; overflow=false"
+      "status": "PASS",
+      "details": "jsonld=1; ga=true; apex=301->https://fieldgearatlas.com/; www=301->https://fieldgearatlas.com/; overflow=false"
     }
   ],
   "urlResults": [
@@ -82,47 +82,37 @@
       "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/about/",
+      "url": "https://fieldgearatlas.com/topics",
       "status": 200,
       "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/editorial-policy/",
+      "url": "https://fieldgearatlas.com/topics/boots",
       "status": 200,
       "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/methodology/",
+      "url": "https://fieldgearatlas.com/topics/rucking",
       "status": 200,
       "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/data-sources/",
+      "url": "https://fieldgearatlas.com/topics/packs",
       "status": 200,
       "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/affiliate-disclosure/",
+      "url": "https://fieldgearatlas.com/topics/clothing",
       "status": 200,
       "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/privacy/",
+      "url": "https://fieldgearatlas.com/topics/field-sleep",
       "status": 200,
       "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/terms/",
-      "status": 200,
-      "ok": true
-    },
-    {
-      "url": "https://fieldgearatlas.com/accessibility/",
-      "status": 200,
-      "ok": true
-    },
-    {
-      "url": "https://fieldgearatlas.com/contact/",
+      "url": "https://fieldgearatlas.com/topics/surplus",
       "status": 200,
       "ok": true
     }

@@ -57,3 +57,14 @@
 - Revalidated from the F: repository root after temporary C: build cleanup: `npm run typecheck`, `npm test` (3/3), and `npm run build` all PASS.
 - Re-ran local SEO and dedicated tracking audits from the F: preview at `http://localhost:3004`: SEO 7/7 and tracking 7/7 PASS. Responsive audit was started but stopped after an extended no-output run; prior verified 80-width evidence remains unchanged.
 - No source or V1 files were modified; no production traffic switch was made. External holds remain owner decision for canonical traffic switch/backup approval and Tenten DNS access for Search Console TXT verification.
+
+## Production switch checkpoint — 2026-10-30
+
+- Owner explicitly approved switching canonical traffic from V1 to V2.
+- Fresh live backup completed before switch at `/root/fieldgearatlas-deploy-backups/20261030T065642Z` (183 MB): `public_html`, OpenLiteSpeed config, PM2 dump, MySQL all-databases dump, PostgreSQL all-databases dump, and SHA-256 checksums.
+- Pre-switch health: V1 port 3101 and V2 port 3102 both returned HTTP 200 for their home routes; V2 release remained `/home/fieldgearatlas.com/app/releases/20261029-fga-v2-r4` with PM2 online and zero restarts.
+- Canonical OpenLiteSpeed upstream changed only from `127.0.0.1:3101` to `127.0.0.1:3102`; V1 process and release remain intact for rollback. OpenLiteSpeed reload graceful succeeded and service is active.
+- Post-switch live SEO audit: 7/7 PASS. Post-switch live GA/tracking audit: 7/7 PASS for `G-G7659QXX6M`, project `fieldgearatlas_magazine_v2`, page view, interaction click, scroll depth, form events, and route-change page view.
+- Post-switch browser capture: 36 screenshots across desktop/tablet/mobile/reference, 0 overflow, 0 broken images. The private article preview is intentionally not public and returned the expected 404 without the private preview gate.
+- Canonical checks PASS: HTTP apex, HTTP www, and HTTPS www redirect to `https://fieldgearatlas.com`; homepage, `/topics`, `/topics/boots`, `robots.txt`, and `sitemap.xml` return HTTP 200; PM2 V1/V2 online; OpenLiteSpeed active; no new service errors.
+- Search Console TXT verification remains pending because Tenten DNS access has not been completed. Private 50-article staging remains HOLD and no articles were published.
