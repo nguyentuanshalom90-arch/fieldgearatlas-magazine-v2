@@ -4,14 +4,15 @@
 
 - Independent repository created at `fieldgearatlas-magazine-v2`; legacy repository was not edited by this build.
 - Next.js App Router shell implemented for homepage, six category routes, and protected FGA-001 article preview.
-- 50 canonical article folders copied to private server-side staging; HOLD state preserved.
+- 50 canonical article folders are now owner-authorized and published on V2 at their proposed canonical URLs; V1 source/database remains untouched.
 - 106-slot source manifest copied. Local WebP coverage is now 106/106 slots: all 29 Figma inline imports and all 65 authenticated Adobe exports are present and hashable; owner release authorization is recorded.
 - Seven approved mockups inspected and accepted by owner on 2026-10-30. The proposed eighth article template is also accepted for its protected preview.
 - Canonical production traffic now serves V2; GA4 tracking and Search Console ownership are verified.
+- Production V2 release is `/home/fieldgearatlas.com/app/releases/20261030-fga-v2-r6`; PM2 `fieldgearatlas-magazine-v2` is online on port 3102 with zero restarts after the release.
 
 ## Next steps
 
-1. Keep all 50 articles private/HOLD; the deployed release excludes `private-content` and does not publish the 50 articles.
+1. Monitor Search Console processing and normal post-publication analytics; no implementation blocker remains.
 2. Optionally install a native Python runtime later if the handoff verifier evidence is required; this is not a release blocker because all project-native audits pass.
 
 ## Holds
@@ -20,6 +21,17 @@
 - No owner-approved original logo was physically present in the ZIP; the verified logo derivative was copied read-only from the existing repository asset into this independent repo.
 - All 106 media slots have local binary files and owner release authorization. `MEDIA_LOCAL_FILE_COVERAGE_106`, `MEDIA_EDITORIAL_RIGHTS`, `VISUAL_PARITY_7`, and `ARTICLE_PROPOSED_TEMPLATE` are PASS.
 - Machine-readable media audit now returns `MEDIA_COMPLETE` from the recorded owner authorization artifact; tests and staging/public integrity audits remain PASS.
+
+## Publication and internal-link checkpoint — 2026-10-30
+
+- Owner explicitly authorized publishing all 50 staged articles; authorization is recorded in `ARTICLE_PUBLICATION_AUTHORIZATION_2026-10-30.md`. All 50 `ORIGIN_AND_STATUS.json` files now have `release_authorized:true` and `draft_only:false`.
+- Public article route supports all 50 proposed canonical paths. Homepage, six category hubs, article related-guide blocks, and sitemap were updated to form a connected internal-link graph.
+- Three-round internal-link audit PASS locally: round 1 = 50/50 public routes and metadata; round 2 = 50/50 hub reachability plus 50/50 related-guide links; round 3 = 65 graph URLs with zero broken links and all 50 sitemap entries present.
+- Browser capture after publication: 44 screenshots across homepage, topics, six categories, two public articles, private preview, desktop/tablet/mobile/reference; 0 overflow and 0 broken images. Responsive audit: 80 route/width runs, 0 overflow, 0 broken images, keyboard Escape PASS.
+- Local quality gates PASS: typecheck, tests 3/3, production build, media audit `MEDIA_COMPLETE`, SEO 7/7, staging publication audit, public-source audit.
+- Fresh pre-deploy backups: `/root/fieldgearatlas-deploy-backups/20261030T082910Z` before r5 and `/root/fieldgearatlas-deploy-backups/20261030T083855Z` before r6; each includes release/config, MySQL/PostgreSQL dumps, PM2 state, and SHA-256 checksums.
+- Production live checks PASS: all 50 article URLs HTTP 200, sitemap includes all 50, live SEO 7/7, live tracking 7/7 for `G-G7659QXX6M`, PM2 online, V1 process still online and unchanged.
+- Production URL normalization was corrected after audit: article sitemap/canonical URLs now use the no-trailing-slash canonical form, eliminating the previous 308 sitemap redirects.
 
 ## Session checkpoint — 2026-10-29
 
