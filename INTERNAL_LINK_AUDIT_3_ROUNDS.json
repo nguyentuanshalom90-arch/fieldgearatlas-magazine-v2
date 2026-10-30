@@ -1,6 +1,6 @@
 {
   "base": "http://localhost:3004",
-  "generatedAt": "2026-10-30T07:37:53.565Z",
+  "generatedAt": "2026-10-30T08:38:06.668Z",
   "articleCount": 50,
   "rounds": [
     {
@@ -22,7 +22,7 @@
       "round": 3,
       "name": "broken-link and sitemap integrity",
       "pass": true,
-      "checked": 94,
+      "checked": 65,
       "broken": [],
       "sitemapMissing": []
     }

@@ -7,16 +7,28 @@ const base = process.env.AUDIT_BASE_URL || "http://localhost:3004";
 const dirs = fs.readdirSync(path.join(root, "private-content"), { withFileTypes: true }).filter((entry) => entry.isDirectory() && /^FGA-\d{3}$/.test(entry.name));
 const articles = dirs.map((entry) => {
   const status = JSON.parse(fs.readFileSync(path.join(root, "private-content", entry.name, "ORIGIN_AND_STATUS.json"), "utf8"));
-  return { id: entry.name, url: status.proposed_canonical_url };
+  return { id: entry.name, url: status.proposed_canonical_url === "/" ? "/" : status.proposed_canonical_url.replace(/\/$/, "") };
 }).filter((article) => article.url);
 
 const browser = await chromium.launch({ headless: true });
 const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
+page.setDefaultNavigationTimeout(60000);
 const cache = new Map();
 async function inspect(url) {
   if (cache.has(url)) return cache.get(url);
-  const response = await page.goto(new URL(url, base).toString(), { waitUntil: "domcontentloaded" });
-  const result = { url, status: response?.status() ?? 0, links: [], canonical: "", title: "", h1: 0, noindex: false };
+  let response;
+  let navigationError = "";
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    try {
+      response = await page.goto(new URL(url, base).toString(), { waitUntil: "commit", timeout: 60000 });
+      await page.waitForLoadState("domcontentloaded", { timeout: 15000 }).catch(() => {});
+      break;
+    } catch (error) {
+      navigationError = error instanceof Error ? error.message : String(error);
+      if (attempt === 2) break;
+    }
+  }
+  const result = { url, status: response?.status() ?? 0, links: [], canonical: "", title: "", h1: 0, noindex: false, navigationError };
   if (response?.ok()) {
     result.links = await page.locator("a[href]").evaluateAll((anchors) => anchors.map((anchor) => anchor.getAttribute("href")).filter((href) => href?.startsWith("/")));
     result.canonical = await page.locator('link[rel="canonical"]').getAttribute("href").catch(() => null) || "";

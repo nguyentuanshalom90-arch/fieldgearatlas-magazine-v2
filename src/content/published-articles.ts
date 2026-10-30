@@ -86,3 +86,7 @@ export function publishedArticleByPath(articlePath: string) {
 export function publishedArticleParams() {
   return publishedArticles().map((article) => ({ slug: article.path.split("/").filter(Boolean) }));
 }
+
+export function publicArticleUrl(article: PublishedArticle) {
+  return article.path === "/" ? "/" : article.path.replace(/\/$/, "");
+}

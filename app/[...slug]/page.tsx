@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { publishedArticleByPath, publishedArticleParams, publishedArticles, type PublishedArticle } from "../../src/content/published-articles";
+import { publishedArticleByPath, publishedArticleParams, publishedArticles, publicArticleUrl, type PublishedArticle } from "../../src/content/published-articles";
 
 export const dynamic = "force-static";
 
@@ -53,7 +53,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: article.title,
     description: article.description,
-    alternates: { canonical: article.path },
+    alternates: { canonical: publicArticleUrl(article) },
     openGraph: { title: article.title, description: article.description, type: "article", images: [article.heroImage] },
   };
 }
