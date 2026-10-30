@@ -1,6 +1,6 @@
 {
   "base": "https://fieldgearatlas.com",
-  "generatedAt": "2026-10-30T08:37:28.238Z",
+  "generatedAt": "2026-10-30T08:41:23.320Z",
   "rounds": [
     {
       "round": 1,
@@ -9,8 +9,8 @@
     },
     {
       "round": 2,
-      "status": "FAIL",
-      "failed": 1
+      "status": "PASS",
+      "failed": 0
     },
     {
       "round": 3,
@@ -46,8 +46,8 @@
     },
     {
       "round": 2,
-      "status": "FAIL",
-      "details": "sitemap URLs checked=50; broken=42"
+      "status": "PASS",
+      "details": "sitemap URLs checked=50; broken=0"
     },
     {
       "round": 3,
@@ -117,214 +117,214 @@
       "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/boot-width-chart/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/boot-width-chart",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/boots/wide-feet/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/boots/wide-feet",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/boots/wide-toe-box/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/boots/wide-toe-box",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/6-inch-vs-8-inch-boots/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/6-inch-vs-8-inch-boots",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/how-to-fit-rucking-boots/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/how-to-fit-rucking-boots",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/waterproof-vs-gore-tex-boots/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/waterproof-vs-gore-tex-boots",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/composite-vs-steel-toe-tactical-boots/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/composite-vs-steel-toe-tactical-boots",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/hot-weather-tactical-boots/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/hot-weather-tactical-boots",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/tactical-boot-care-and-drying/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/tactical-boot-care-and-drying",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/boot-fit-checklist-before-buying/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/boot-fit-checklist-before-buying",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/rucking-for-beginners/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/rucking-for-beginners",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/rucking-backpack-fit/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/rucking-backpack-fit",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/ruck-pack-weight-placement/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/ruck-pack-weight-placement",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/rucking-foot-care/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/rucking-foot-care",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/rucking-vs-hiking/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/rucking-vs-hiking",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/rucking-packing-checklist/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/rucking-packing-checklist",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/how-to-track-rucking-progress/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/how-to-track-rucking-progress",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/tactical-backpack-vs-hiking-backpack/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/tactical-backpack-vs-hiking-backpack",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/molle-pals-explained/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/molle-pals-explained",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/backpack-capacity-liters/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/backpack-capacity-liters",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/internal-vs-external-frame-rucksacks/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/internal-vs-external-frame-rucksacks",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/tactical-pouch-organization/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/tactical-pouch-organization",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/dry-bag-vs-stuff-sack/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/dry-bag-vs-stuff-sack",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/duffel-vs-rucksack/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/duffel-vs-rucksack",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/military-web-gear-vs-molle/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/military-web-gear-vs-molle",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/pack-compression-straps-guide/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/pack-compression-straps-guide",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/tactical-pants-fit-guide/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/tactical-pants-fit-guide",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/ripstop-vs-twill-tactical-pants/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/ripstop-vs-twill-tactical-pants",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/combat-shirt-vs-field-shirt/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/combat-shirt-vs-field-shirt",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/military-gloves-fit-and-layers/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/military-gloves-fit-and-layers",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/boonie-hat-vs-baseball-cap/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/boonie-hat-vs-baseball-cap",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/balaclava-vs-neck-gaiter/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/balaclava-vs-neck-gaiter",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/m65-field-jacket-vs-fishtail-parka/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/m65-field-jacket-vs-fishtail-parka",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/ma1-flight-jacket-identification/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/ma1-flight-jacket-identification",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/n3b-vs-n2b-parka/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/n3b-vs-n2b-parka",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/cwu45-vs-cwu36-flight-jacket/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/cwu45-vs-cwu36-flight-jacket",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/tactical-jacket-layering-system/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/tactical-jacket-layering-system",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/sleeping-bag-temperature-ratings/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/sleeping-bag-temperature-ratings",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/poncho-vs-rain-jacket/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/poncho-vs-rain-jacket",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/poncho-liner-woobie-guide/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/poncho-liner-woobie-guide",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/military-sleep-system-layers/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/military-sleep-system-layers",
+      "status": 200,
+      "ok": true
     },
     {
-      "url": "https://fieldgearatlas.com/guides/sleeping-pad-r-value-guide/",
-      "status": 308,
-      "ok": false
+      "url": "https://fieldgearatlas.com/guides/sleeping-pad-r-value-guide",
+      "status": 200,
+      "ok": true
     }
   ]
 }
