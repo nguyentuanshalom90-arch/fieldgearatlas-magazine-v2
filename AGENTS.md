@@ -2,7 +2,7 @@
 
 - This repository is independent from the legacy FieldGearAtlas/V1 repository and database.
 - Run locally on port 3004. Do not deploy production from this repository.
-- The 50 article sources in `private-content/` are HOLD / `release_authorized:false` and must remain server-side only.
+- The 50 article sources in `private-content/` are server-side content packages. They remain HOLD unless a dated owner publication authorization exists; `ARTICLE_PUBLICATION_AUTHORIZATION_2026-10-30.md` authorizes their public V2 release while preserving the evidence and first-hand-test restrictions.
 - The 106-slot manifest is source coverage, not proof of local media-file coverage. Missing binaries stay `MEDIA_MISSING`.
 - The seven PNGs under `reference/DESIGN_REFERENCE/01_APPROVED_7/` are layout authority. The article design is PROPOSED and requires owner review.
 - Never claim first-hand testing, exact product proof, affiliate approval, media rights, or publication authority without evidence.

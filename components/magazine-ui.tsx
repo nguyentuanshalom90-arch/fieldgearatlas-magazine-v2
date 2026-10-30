@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export type Story = {title:string; excerpt:string; image:string; category?:string; href?:string; date?:string; read?:string};
+export type Story = {title:string; excerpt:string; image:string; category?:string; categorySlug?:string; href?:string; date?:string; read?:string};
 export const mediaIds=["021","022","023","024","025","026","027","028","029","030","031","038"];
 export function media(i:number, role:"hero"|"thumb"="hero"){const id=mediaIds[i%mediaIds.length];return `/media/articles/FGA-${id}/${role}.webp`}
 

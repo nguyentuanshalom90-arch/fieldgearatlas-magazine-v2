@@ -1,9 +1,9 @@
 {
   "content_id": "FGA-032",
-  "draft_only": true,
+  "draft_only": false,
   "eligible_for_codex": false,
   "editorial_quality_score": null,
-  "release_authorized": false,
+  "release_authorized": true,
   "proposed_canonical_url": "/guides/balaclava-vs-neck-gaiter/",
   "source_file": "/mnt/data/FGA_EDITORIAL_WAVE4_2026-10-17/REWRITTEN/32-balaclava-vs-neck-gaiter.md"
 }

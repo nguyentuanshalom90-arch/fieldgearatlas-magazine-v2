@@ -1,9 +1,9 @@
 {
   "content_id": "FGA-001",
-  "draft_only": true,
+  "draft_only": false,
   "eligible_for_codex": false,
   "editorial_quality_score": null,
-  "release_authorized": false,
+  "release_authorized": true,
   "proposed_canonical_url": "/boot-width-chart/",
   "source_file": "/mnt/data/FGA_ARTICLE_01_TACTICAL_BOOT_WIDTH_GUIDE_2026-10-17_V5/ARTICLE_TACTICAL_BOOT_WIDTH_GUIDE.md"
 }

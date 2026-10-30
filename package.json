@@ -17,6 +17,7 @@
     "audit:seo": "node scripts/audit-seo-7-rounds.mjs",
     "audit:live-seo": "node scripts/audit-live-7-rounds.mjs",
     "audit:tracking": "node scripts/audit-tracking-7-rounds.mjs",
+    "audit:internal-links": "node scripts/audit-internal-links-3-rounds.mjs",
     "import:figma": "node scripts/import-figma-29.mjs",
     "import:adobe": "node scripts/import-adobe-65.mjs"
   },

@@ -1,9 +1,9 @@
 {
   "content_id": "FGA-033",
-  "draft_only": true,
+  "draft_only": false,
   "eligible_for_codex": false,
   "editorial_quality_score": null,
-  "release_authorized": false,
+  "release_authorized": true,
   "proposed_canonical_url": "/guides/m65-field-jacket-vs-fishtail-parka/",
   "source_file": "/mnt/data/FGA_EDITORIAL_WAVE4_2026-10-17/REWRITTEN/33-m65-field-jacket-vs-fishtail-parka.md"
 }

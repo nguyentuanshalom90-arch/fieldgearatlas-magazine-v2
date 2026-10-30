@@ -1,9 +1,9 @@
 {
   "content_id": "FGA-045",
-  "draft_only": true,
+  "draft_only": false,
   "eligible_for_codex": false,
   "editorial_quality_score": null,
-  "release_authorized": false,
+  "release_authorized": true,
   "proposed_canonical_url": "/guides/canteen-cup-compatibility/",
   "source_file": "/mnt/data/FGA_EDITORIAL_WAVE4_2026-10-17/REWRITTEN/45-canteen-cup-compatibility.md"
 }

@@ -123,7 +123,7 @@
     {
       "round": 6,
       "status": "PASS",
-      "details": "/ internal links checked=8 broken=0"
+      "details": "/ internal links checked=18 broken=0"
     },
     {
       "round": 7,
@@ -178,12 +178,12 @@
     {
       "round": 5,
       "status": "PASS",
-      "details": "/topics/boots images=26 bad-alt-or-src=0"
+      "details": "/topics/boots images=36 bad-alt-or-src=0"
     },
     {
       "round": 6,
       "status": "PASS",
-      "details": "/topics/boots internal links checked=8 broken=0"
+      "details": "/topics/boots internal links checked=22 broken=0"
     },
     {
       "round": 7,
@@ -208,12 +208,12 @@
     {
       "round": 5,
       "status": "PASS",
-      "details": "/topics/rucking images=26 bad-alt-or-src=0"
+      "details": "/topics/rucking images=31 bad-alt-or-src=0"
     },
     {
       "round": 6,
       "status": "PASS",
-      "details": "/topics/rucking internal links checked=8 broken=0"
+      "details": "/topics/rucking internal links checked=17 broken=0"
     },
     {
       "round": 7,
@@ -238,12 +238,12 @@
     {
       "round": 5,
       "status": "PASS",
-      "details": "/topics/packs images=26 bad-alt-or-src=0"
+      "details": "/topics/packs images=35 bad-alt-or-src=0"
     },
     {
       "round": 6,
       "status": "PASS",
-      "details": "/topics/packs internal links checked=8 broken=0"
+      "details": "/topics/packs internal links checked=21 broken=0"
     },
     {
       "round": 7,
@@ -268,12 +268,12 @@
     {
       "round": 5,
       "status": "PASS",
-      "details": "/topics/clothing images=28 bad-alt-or-src=0"
+      "details": "/topics/clothing images=39 bad-alt-or-src=0"
     },
     {
       "round": 6,
       "status": "PASS",
-      "details": "/topics/clothing internal links checked=8 broken=0"
+      "details": "/topics/clothing internal links checked=23 broken=0"
     },
     {
       "round": 7,
@@ -298,12 +298,12 @@
     {
       "round": 5,
       "status": "PASS",
-      "details": "/topics/field-sleep images=24 bad-alt-or-src=0"
+      "details": "/topics/field-sleep images=33 bad-alt-or-src=0"
     },
     {
       "round": 6,
       "status": "PASS",
-      "details": "/topics/field-sleep internal links checked=8 broken=0"
+      "details": "/topics/field-sleep internal links checked=21 broken=0"
     },
     {
       "round": 7,
@@ -328,12 +328,12 @@
     {
       "round": 5,
       "status": "PASS",
-      "details": "/topics/surplus images=26 bad-alt-or-src=0"
+      "details": "/topics/surplus images=23 bad-alt-or-src=0"
     },
     {
       "round": 6,
       "status": "PASS",
-      "details": "/topics/surplus internal links checked=8 broken=0"
+      "details": "/topics/surplus internal links checked=12 broken=0"
     },
     {
       "round": 7,
@@ -341,5 +341,5 @@
       "details": "/topics/surplus overflow=false jsonld=1"
     }
   ],
-  "generatedAt": "2026-10-29T12:29:03.509Z"
+  "generatedAt": "2026-10-30T07:41:34.052Z"
 }

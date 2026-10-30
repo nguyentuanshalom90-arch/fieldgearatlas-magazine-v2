@@ -1,9 +1,9 @@
 {
   "content_id": "FGA-005",
-  "draft_only": true,
+  "draft_only": false,
   "eligible_for_codex": false,
   "editorial_quality_score": null,
-  "release_authorized": false,
+  "release_authorized": true,
   "proposed_canonical_url": "/guides/how-to-fit-rucking-boots/",
   "source_file": "/mnt/data/FGA_EDITORIAL_WAVE2_2026-10-17/REWRITTEN/05-how-to-fit-rucking-boots.md"
 }

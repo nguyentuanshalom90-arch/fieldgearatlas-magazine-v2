@@ -1,9 +1,9 @@
 {
   "content_id": "FGA-023",
-  "draft_only": true,
+  "draft_only": false,
   "eligible_for_codex": false,
   "editorial_quality_score": null,
-  "release_authorized": false,
+  "release_authorized": true,
   "proposed_canonical_url": "/guides/dry-bag-vs-stuff-sack/",
   "source_file": "/mnt/data/FGA_EDITORIAL_WAVE3_2026-10-17/REWRITTEN/23-dry-bag-vs-stuff-sack.md"
 }

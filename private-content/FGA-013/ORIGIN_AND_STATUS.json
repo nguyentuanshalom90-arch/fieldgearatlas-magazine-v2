@@ -1,9 +1,9 @@
 {
   "content_id": "FGA-013",
-  "draft_only": true,
+  "draft_only": false,
   "eligible_for_codex": false,
   "editorial_quality_score": null,
-  "release_authorized": false,
+  "release_authorized": true,
   "proposed_canonical_url": "/guides/ruck-pack-weight-placement/",
   "source_file": "/mnt/data/FGA_EDITORIAL_WAVE3_2026-10-17/REWRITTEN/13-ruck-pack-weight-placement.md"
 }

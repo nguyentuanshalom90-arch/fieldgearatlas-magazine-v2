@@ -1,9 +1,9 @@
 {
   "content_id": "FGA-041",
-  "draft_only": true,
+  "draft_only": false,
   "eligible_for_codex": false,
   "editorial_quality_score": null,
-  "release_authorized": false,
+  "release_authorized": true,
   "proposed_canonical_url": "/guides/military-sleep-system-layers/",
   "source_file": "/mnt/data/FGA_EDITORIAL_WAVE4_2026-10-17/REWRITTEN/41-military-sleep-system-layers.md"
 }

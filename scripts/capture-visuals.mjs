@@ -2,7 +2,7 @@ import { chromium } from "playwright";
 import fs from "node:fs";
 import path from "node:path";
 const base=process.env.V2_BASE_URL||"http://localhost:3004";
-const routes=["/","/topics","/topics/boots","/topics/rucking","/topics/packs","/topics/clothing","/topics/field-sleep","/topics/surplus","/preview/guides/FGA-001?preview=1&key=local-v2"];
+const routes=["/","/topics","/topics/boots","/topics/rucking","/topics/packs","/topics/clothing","/topics/field-sleep","/topics/surplus","/boot-width-chart/","/guides/rucking-for-beginners/","/preview/guides/FGA-001?preview=1&key=local-v2"];
 const sizes={desktop:[1440,900],tablet:[768,1024],mobile:[390,844],reference:[1122,1402]};
 const out=path.join(process.cwd(),"SCREENSHOTS");fs.mkdirSync(out,{recursive:true});
 const browser=await chromium.launch({headless:true});const results=[];

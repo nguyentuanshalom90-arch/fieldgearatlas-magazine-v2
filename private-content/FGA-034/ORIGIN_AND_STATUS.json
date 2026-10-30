@@ -1,9 +1,9 @@
 {
   "content_id": "FGA-034",
-  "draft_only": true,
+  "draft_only": false,
   "eligible_for_codex": false,
   "editorial_quality_score": null,
-  "release_authorized": false,
+  "release_authorized": true,
   "proposed_canonical_url": "/guides/ma1-flight-jacket-identification/",
   "source_file": "/mnt/data/FGA_EDITORIAL_WAVE4_2026-10-17/REWRITTEN/34-ma1-flight-jacket-identification.md"
 }

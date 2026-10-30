@@ -1,4 +1,5 @@
 import { media, type Story } from "../components/magazine-ui";
+import { publishedArticles } from "../src/content/published-articles";
 const bootHero="/media/articles/FGA-001/tactical-boot-width-hero.webp";
 
 const categoryForIndex=(i:number)=>["boots","rucking","packs","clothing","field-sleep","surplus"][i%6];
@@ -14,5 +15,6 @@ export const categories={
 export type CategoryKey=keyof typeof categories;
 
 const titles=["The Best Tactical Boots for 2024","Rucking for Beginners: A Complete Guide","The Best 30L Backpacks for Field Use","Layering Systems That Work","How to Build a Sleep System for Any Season","Issue vs. Military-Style Gear","Common Boot Sizing Mistakes","How to Fit a Rucksack for Comfort and Performance","Essential Pouches for Every Loadout","Waterproof vs. Water Resistant: What You Need to Know","Understanding Sleeping Bag Temperature Ratings","Surplus Condition Grades Explained"];
-export const stories:Story[]=titles.map((title,i)=>{const slug=categoryForIndex(i);return {title,excerpt:["Research-backed guidance for real decisions, with clear limits and source context.","Practical field notes, comparisons, and methods to help you choose with confidence.","A useful starting point for understanding fit, use cases, and tradeoffs."][i%3],image:i===0?bootHero:media(i),category:["BOOTS & FIT","RUCKING & TRAINING","PACKS & CARRY","CLOTHING & PROTECTION","FIELD & SLEEP","SURPLUS & HERITAGE"][i%6],href:`/topics/${slug}`,date:`Apr ${12-i}, 2024`,read:`${5+i%8} min read`};});
+const publishedStorySet: Story[] = publishedArticles().map((article, index) => ({title: article.title, excerpt: article.description, image: article.heroImage, category: article.topic.toUpperCase(), categorySlug: article.categorySlug, href: article.path, date: "Oct 30, 2026", read: `${6 + (index % 7)} min read`}));
+export const stories:Story[]=publishedStorySet.length ? publishedStorySet : titles.map((title,i)=>{const slug=categoryForIndex(i);return {title,excerpt:["Research-backed guidance for real decisions, with clear limits and source context.","Practical field notes, comparisons, and methods to help you choose with confidence.","A useful starting point for understanding fit, use cases, and tradeoffs."][i%3],image:i===0?bootHero:media(i),category:["BOOTS & FIT","RUCKING & TRAINING","PACKS & CARRY","CLOTHING & PROTECTION","FIELD & SLEEP","SURPLUS & HERITAGE"][i%6],href:`/topics/${slug}`,date:`Apr ${12-i}, 2024`,read:`${5+i%8} min read`,categorySlug:slug};});
 export const topicStories=(items:readonly string[],offset=0)=>items.map((title,i)=>({title,excerpt:"Explore practical editorial guidance.",image:media(i+offset),category:"TOPIC",href:`/topics/${categoryForIndex(i+offset)}`}));

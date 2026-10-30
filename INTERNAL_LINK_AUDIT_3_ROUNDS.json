@@ -1,0 +1,30 @@
+{
+  "base": "http://localhost:3004",
+  "generatedAt": "2026-10-30T07:37:53.565Z",
+  "articleCount": 50,
+  "rounds": [
+    {
+      "round": 1,
+      "name": "public route and metadata coverage",
+      "pass": true,
+      "checked": 50,
+      "failed": []
+    },
+    {
+      "round": 2,
+      "name": "hub reachability and related-guide links",
+      "pass": true,
+      "hubArticleLinks": 50,
+      "relatedArticlePages": 50,
+      "orphaned": []
+    },
+    {
+      "round": 3,
+      "name": "broken-link and sitemap integrity",
+      "pass": true,
+      "checked": 94,
+      "broken": [],
+      "sitemapMissing": []
+    }
+  ]
+}
