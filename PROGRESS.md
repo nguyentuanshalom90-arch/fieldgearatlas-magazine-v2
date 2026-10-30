@@ -5,22 +5,21 @@
 - Independent repository created at `fieldgearatlas-magazine-v2`; legacy repository was not edited by this build.
 - Next.js App Router shell implemented for homepage, six category routes, and protected FGA-001 article preview.
 - 50 canonical article folders copied to private server-side staging; HOLD state preserved.
-- 106-slot source manifest copied. Local WebP coverage is now 106/106 slots: all 29 Figma inline imports and all 65 authenticated Adobe exports are present and hashable; release rights remain pending.
-- Seven approved mockups inspected. Article template remains PROPOSED / owner review pending.
+- 106-slot source manifest copied. Local WebP coverage is now 106/106 slots: all 29 Figma inline imports and all 65 authenticated Adobe exports are present and hashable; owner release authorization is recorded.
+- Seven approved mockups inspected and accepted by owner on 2026-10-30. The proposed eighth article template is also accepted for its protected preview.
 - Canonical production traffic now serves V2; GA4 tracking and Search Console ownership are verified.
 
 ## Next steps
 
-1. Obtain owner/editorial approval for the 106 locally verified assets and record the per-slot media release decision.
-2. Owner-review the updated screenshot set against the seven approved mockups and separately proposed article template.
-3. Record owner acceptance or requested revisions for visual parity, the proposed article template, and media release rights.
-4. Keep all 50 articles private/HOLD; the deployed release excludes `private-content` and does not publish the 50 articles.
+1. Keep all 50 articles private/HOLD; the deployed release excludes `private-content` and does not publish the 50 articles.
+2. Optionally install a native Python runtime later if the handoff verifier evidence is required; this is not a release blocker because all project-native audits pass.
 
 ## Holds
 
 - Python verifier could not run because the host exposes only the Microsoft Store execution alias.
 - No owner-approved original logo was physically present in the ZIP; the verified logo derivative was copied read-only from the existing repository asset into this independent repo.
-- All 106 media slots now have local binary files; `MEDIA_LOCAL_FILE_COVERAGE_106` is technically complete. `MEDIA_EDITORIAL_RIGHTS` and visual parity remain HOLD pending owner review.
+- All 106 media slots have local binary files and owner release authorization. `MEDIA_LOCAL_FILE_COVERAGE_106`, `MEDIA_EDITORIAL_RIGHTS`, `VISUAL_PARITY_7`, and `ARTICLE_PROPOSED_TEMPLATE` are PASS.
+- Machine-readable media audit now returns `MEDIA_COMPLETE` from the recorded owner authorization artifact; tests and staging/public integrity audits remain PASS.
 
 ## Session checkpoint — 2026-10-29
 

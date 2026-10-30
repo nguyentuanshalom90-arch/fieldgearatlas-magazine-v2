@@ -4,10 +4,10 @@
 
 - Manifest: 106 planned slots.
 - Local verified files: 122 media files representing all 106 manifest slots (29 Figma inline imports plus 65 authenticated Adobe exports, with the supplied bundle assets and FGA-001 technical assets also retained).
-- Remote-only records: none in the 106-slot binary manifest after authenticated Adobe export; editorial rights/release authorization remains unresolved.
+- Remote-only records: none in the 106-slot binary manifest after authenticated Adobe export.
 - Sources include Adobe Firefly references and Figma-generated image references. A source URL is not a local production file.
 - Access check on 2026-10-29: sampled Adobe Firefly short URLs returned HTTP 403 and sampled Figma references returned HTTP 400 from this environment; no binary was treated as recovered from those URLs.
-- No owner public-release authorization for the 106 slots is present in the handoff. The 29 Figma imports remain pending editorial/rights approval.
+- Owner public-release authorization for all 106 slots was explicitly granted on 2026-10-30. The approval applies to the locally verified binaries listed in the manifest and does not convert conceptual imagery into product evidence.
 
 ## Rules applied
 
@@ -19,4 +19,4 @@
 
 ## Required to clear the gate
 
-Per-slot dimensions and SHA-256 validation are now recorded for all 65 Adobe exports and all 29 Figma imports. `MEDIA_LOCAL_FILE_COVERAGE_106` is technically complete, but `MEDIA_EDITORIAL_RIGHTS` and public release authorization remain HOLD until owner approval is recorded.
+Per-slot dimensions and SHA-256 validation are recorded for all 65 Adobe exports and all 29 Figma imports. `MEDIA_LOCAL_FILE_COVERAGE_106` and `MEDIA_EDITORIAL_RIGHTS` are PASS after explicit owner approval on 2026-10-30.

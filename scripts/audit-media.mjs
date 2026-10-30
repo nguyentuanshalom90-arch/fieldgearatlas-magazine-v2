@@ -3,6 +3,9 @@ import path from "node:path";
 import crypto from "node:crypto";
 
 const root = process.cwd();
+const authorizationPath = path.join(root, "MEDIA_RELEASE_AUTHORIZATION.md");
+const authorization = fs.existsSync(authorizationPath) ? fs.readFileSync(authorizationPath, "utf8") : "";
+const rightsApproved = /OWNER_APPROVAL_STATUS:\s*APPROVED/.test(authorization);
 const manifest = JSON.parse(fs.readFileSync(path.join(root, "reference", "MEDIA_SOURCE_OF_TRUTH_106.json"), "utf8").replace(/: NaN/g, ": null"));
 const rows = manifest.filter((row) => row.webp_target_in_V2);
 const report = ["slot_id,local_status,local_path,sha256,notes"];
@@ -18,7 +21,7 @@ for (const row of rows) {
 const mediaRoot = path.join(root, "public", "media");
 const localFiles = fs.existsSync(mediaRoot) ? walk(mediaRoot).length : 0;
 fs.writeFileSync(path.join(root, "MEDIA_IMPORT_REPORT_106.csv"), report.join("\n") + "\n");
-console.log(JSON.stringify({ manifest: rows.length, localFiles, localSlots, missingSlots: rows.length - localSlots, status: localSlots === rows.length ? "LOCAL_FILE_COVERAGE_COMPLETE_RIGHTS_PENDING" : "SOURCE_COVERAGE_ONLY" }, null, 2));
+console.log(JSON.stringify({ manifest: rows.length, localFiles, localSlots, missingSlots: rows.length - localSlots, rightsApproved, status: localSlots === rows.length && rightsApproved ? "MEDIA_COMPLETE" : localSlots === rows.length ? "LOCAL_FILE_COVERAGE_COMPLETE_RIGHTS_PENDING" : "SOURCE_COVERAGE_ONLY" }, null, 2));
 
 function walk(dir) {
   const result = [];

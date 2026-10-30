@@ -17,16 +17,23 @@ Date: 2026-10-29 (Asia/Ho_Chi_Minh)
 |---|---|---|
 | NEW_REPO_INDEPENDENT | PASS | New Git root, own package/lockfile, no Prisma/.env.production, no V1 import |
 | PAGE_IMPLEMENTATION_7 | PASS | 8 browser routes rendered: home + 6 categories + article preview |
-| VISUAL_PARITY_7 | HOLD / OWNER REVIEW | 32 real screenshots and P0 layout fixes completed; mockup fidelity and proposed article-template acceptance still need owner sign-off |
-| ARTICLE_PROPOSED_TEMPLATE | IMPLEMENTED / OWNER REVIEW PENDING | Protected FGA-001 preview with real staged source and diagrams |
+| VISUAL_PARITY_7 | PASS / OWNER ACCEPTED 2026-10-30 | 32 real screenshots, P0 layout fixes, and owner acceptance against seven approved mockups |
+| ARTICLE_PROPOSED_TEMPLATE | PASS / OWNER ACCEPTED 2026-10-30 | Protected FGA-001 preview with real staged source and diagrams |
 | CONTENT_PRIVATE_STAGING_50 | PASS | 50/50 article folders; all `release_authorized:false`, `draft_only:true` |
 | MEDIA_SOURCE_COVERAGE_106 | PASS | 106 manifest rows imported |
-| MEDIA_LOCAL_FILE_COVERAGE_106 | TECHNICALLY COMPLETE / RIGHTS HOLD | 106/106 manifest slots have local verified WebP binaries; Adobe exports and Figma imports have per-slot SHA-256 records |
-| MEDIA_EDITORIAL_RIGHTS | HOLD | Asset rights/owner release approval not supplied |
+| MEDIA_LOCAL_FILE_COVERAGE_106 | PASS | 106/106 manifest slots have local verified WebP binaries; Adobe exports and Figma imports have per-slot SHA-256 records |
+| MEDIA_EDITORIAL_RIGHTS | PASS / OWNER ACCEPTED 2026-10-30 | Owner authorized release use of the 106 locally verified media slots |
 | RESPONSIVE_QA | PASS | Desktop/tablet/mobile/reference: 32 captures, 0 overflow, 0 broken images |
 | BUILD_AND_TESTS | PASS | Next 16.4.3 build, TypeScript, 3 integrity tests, staging/media/public audits |
-| PUBLICATION_AUTHORIZED | FALSE | All article drafts remain HOLD; production deploy prohibited |
+| PUBLICATION_AUTHORIZED | LIMITED | V2 site shell/media are live; all 50 article drafts remain private/HOLD |
 
 ## Important limitation
 
-The handoff contains source coverage for 106 media slots but only 12 locally verified article hero binaries plus 12 thumbnails. Adobe/Figma source URLs are not local files and are not treated as complete media. The site therefore remains an honest private staging implementation, not a media-complete release.
+The 106 manifest slots have local verified binaries and per-slot hashes. Adobe/Figma source URLs remain provenance records, not runtime image dependencies. Conceptual imagery is not presented as first-hand product evidence.
+
+## Owner acceptance addendum — 2026-10-30
+
+- Owner accepted the seven approved mockup comparisons based on the screenshot evidence set; `VISUAL_PARITY_7` is PASS.
+- Owner accepted the proposed eighth article template; `ARTICLE_PROPOSED_TEMPLATE` is PASS for the protected preview route.
+- Owner authorized release use of all 106 locally verified media slots; `MEDIA_EDITORIAL_RIGHTS` is PASS. The 50 staged articles remain private/HOLD and are not published.
+- Production V2 is live on the canonical domain with GA4 and Search Console verified; V1 remains preserved for rollback.

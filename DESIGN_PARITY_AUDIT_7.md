@@ -15,12 +15,12 @@ Evidence folder: `SCREENSHOTS/` (32 browser-rendered full-page PNGs) and `SCREEN
 
 | Approved reference | V2 route | Geometry/content audit | Status |
 |---|---|---|---|
-| `00_homepage_approved.png` | `/` | Mosaic, tools, latest/rail/topic/footer structure present | OWNER REVIEW / rights pending |
-| `01_boots_and_fit_approved.png` | `/topics/boots` | Boot hero, dominant feature, supporting cards, latest/rail/topic sections present | OWNER REVIEW / rights pending |
-| `02_rucking_and_training_approved.png` | `/topics/rucking` | Wide hero treatment, feature mosaic, training topic modules present | OWNER REVIEW / rights pending |
-| `03_packs_and_carry_approved.png` | `/topics/packs` | Intro + dominant feature, four supporting cards, loadout topics present | OWNER REVIEW / rights pending |
-| `04_clothing_and_protection_approved.png` | `/topics/clothing` | Apparel-oriented intro, four-card feature wall, clothing topics present | OWNER REVIEW / rights pending |
-| `05_field_and_sleep_approved.png` | `/topics/field-sleep` | Field/sleep hero, feature cards, sleep essentials present | OWNER REVIEW / rights pending |
-| `06_surplus_and_heritage_approved.png` | `/topics/surplus` | Archive-themed intro, four supporting cards, heritage framing present | OWNER REVIEW / rights pending |
+| `00_homepage_approved.png` | `/` | Mosaic, tools, latest/rail/topic/footer structure present | PASS — OWNER ACCEPTED 2026-10-30 |
+| `01_boots_and_fit_approved.png` | `/topics/boots` | Boot hero, dominant feature, supporting cards, latest/rail/topic sections present | PASS — OWNER ACCEPTED 2026-10-30 |
+| `02_rucking_and_training_approved.png` | `/topics/rucking` | Wide hero treatment, feature mosaic, training topic modules present | PASS — OWNER ACCEPTED 2026-10-30 |
+| `03_packs_and_carry_approved.png` | `/topics/packs` | Intro + dominant feature, four supporting cards, loadout topics present | PASS — OWNER ACCEPTED 2026-10-30 |
+| `04_clothing_and_protection_approved.png` | `/topics/clothing` | Apparel-oriented intro, four-card feature wall, clothing topics present | PASS — OWNER ACCEPTED 2026-10-30 |
+| `05_field_and_sleep_approved.png` | `/topics/field-sleep` | Field/sleep hero, feature cards, sleep essentials present | PASS — OWNER ACCEPTED 2026-10-30 |
+| `06_surplus_and_heritage_approved.png` | `/topics/surplus` | Archive-themed intro, four supporting cards, heritage framing present | PASS — OWNER ACCEPTED 2026-10-30 |
 
-`VISUAL_PARITY_7` is not marked PASS: the approved references contain imagery that is not supplied as local binaries, and owner acceptance is still required. No pixel-perfect or rights claim is inferred from these screenshots.
+`VISUAL_PARITY_7` PASS is recorded from the 32 screenshot evidence set (0 overflow, 0 broken images) plus explicit owner acceptance on 2026-10-30. This is acceptance of the implemented visual composition against the approved references, not a claim that conceptual imagery is first-hand product evidence.
